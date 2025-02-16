@@ -13,7 +13,7 @@ logging.basicConfig(
 def run_scraper():
     try:
         logging.info(f"Starting scraper at {datetime.now()}")
-        result = subprocess.run(['python', 'main.py'], capture_output=True, text=True)
+        result = subprocess.run(['python3', 'main.py'], capture_output=True, text=True)
         
         if result.returncode == 0:
             logging.info("Scraper completed successfully")
@@ -25,7 +25,7 @@ def run_scraper():
         logging.error(f"Error running scraper: {e}")
 
 # Schedule the job to run every 1 hour
-schedule.every(20).seconds.do(run_scraper)
+schedule.every(1).hour.do(run_scraper)
 
 # Initial run
 run_scraper()

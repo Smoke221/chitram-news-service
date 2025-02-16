@@ -1,149 +1,121 @@
 import requests
 from bs4 import BeautifulSoup
 from pymongo import MongoClient
+from datetime import datetime
+import logging
+import os
+
+# Create logs directory if it doesn't exist
+if not os.path.exists('logs'):
+    os.makedirs('logs')
+
+# Configure logging
+def setup_logger(name, log_file, level=logging.INFO):
+    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+    handler = logging.FileHandler(log_file)
+    handler.setFormatter(formatter)
+
+    logger = logging.getLogger(name)
+    logger.setLevel(level)
+    if not logger.handlers:  # Prevent duplicate handlers
+        logger.addHandler(handler)
+    return logger
+
+# Setup different loggers
+scraper_logger = setup_logger('scraper', 'logs/scraper.log')
+mongo_logger = setup_logger('mongodb', 'logs/mongodb.log')
+error_logger = setup_logger('error', 'logs/error.log')
 
 # MongoDB setup
-client = MongoClient("mongodb+srv://smoke:smoke@cluster0.tye86.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-db = client["chitram"]
-collection = db["articles"]
+try:
+    client = MongoClient("mongodb+srv://smoke:smoke@cluster0.tye86.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    db = client["chitram"]
+    collection = db["articles"]
+    mongo_logger.info("Successfully connected to MongoDB")
+except Exception as e:
+    error_logger.error(f"MongoDB connection error: {str(e)}")
+    raise
 
-# Function to summarize text
-def summarize_text(text, sentence_count=3):
-    parser = PlaintextParser.from_string(text, Tokenizer("english"))
-    summarizer = LsaSummarizer()
-    summary = summarizer(parser.document, sentence_count)
-    return " ".join(str(sentence) for sentence in summary)
+def scrape_articles():
+    try:
+        # URL of the main articles page
+        main_url = 'https://www.gulte.com/movienews'
+        scraper_logger.info(f"Starting scraping from {main_url}")
 
-# URL of the main articles page
-main_url = 'https://www.gulte.com/movienews'
-
-# Fetch the main page
-response = requests.get(main_url)
-
-soup = BeautifulSoup(response.text, 'html.parser')
-
-# Find all articles
-articles = soup.find_all('div', class_='post-thumbnail')
-
-for article in articles[1:]:
-    a_tag = article.find('a')
-    
-    if a_tag and 'href' in a_tag.attrs:
-        article_url = a_tag['href']
-
-        # Check if article is already in MongoDB
-        if collection.find_one({"url": article_url}):
-            print(f"Skipping (Already Scraped): {article_url}")
-            continue
-
-        print(f"Scraping: {article_url}")
+        # Fetch the main page
+        response = requests.get(main_url)
+        response.raise_for_status()  # Raise exception for bad status codes
         
-        # Fetch the article page
-        article_response = requests.get(article_url)
-        article_soup = BeautifulSoup(article_response.text, 'html.parser')
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        # Find all articles
+        articles = soup.find_all('div', class_='post-thumbnail')
+        scraper_logger.info(f"Found {len(articles)} articles to process")
+        
+        new_articles_count = 0
+        for article in articles[1:]:
+            try:
+                a_tag = article.find('a')
+                if not a_tag or 'href' not in a_tag.attrs:
+                    continue
 
-        # Extract data from div with class 'post-inner'
-        post_inner = article_soup.find('div', class_='post-inner')
+                article_url = a_tag['href']
+                
+                # Check if article exists in MongoDB
+                if collection.find_one({"url": article_url}):
+                    scraper_logger.debug(f"Article already exists: {article_url}")
+                    continue
 
-        if post_inner:
-            # Title (inside <h1>)
-            title_tag = post_inner.find('h1')
-            title = title_tag.text.strip() if title_tag else "No Title"
+                # Fetch the article page
+                article_response = requests.get(article_url)
+                article_response.raise_for_status()
+                article_soup = BeautifulSoup(article_response.text, 'html.parser')
 
-            # Image (inside div class 'single-post-thumb', <img> tag)
-            image_div = post_inner.find('div', class_='single-post-thumb')
-            image_tag = image_div.find('img') if image_div else None
-            image_url = image_tag['src'] if image_tag and 'src' in image_tag.attrs else "No Image"
+                # Extract data from div with class 'post-inner'
+                post_inner = article_soup.find('div', class_='post-inner')
 
-            # Article Content (inside div class 'entry', all <p> tags)
-            entry_div = post_inner.find('div', class_='entry')
-            paragraphs = entry_div.find_all('p') if entry_div else []
-            content = "\n".join(p.text.strip() for p in paragraphs)
+                if post_inner:
+                    # Extract title
+                    title_tag = post_inner.find('h1')
+                    title = title_tag.text.strip() if title_tag else "No Title"
 
-            # Store in MongoDB
-            collection.insert_one({
-                "url": article_url,
-                "title": title,
-                "image_url": image_url,
-                "content": content
-            })
-            print(f"Stored: {title}")
+                    # Extract image
+                    image_div = post_inner.find('div', class_='single-post-thumb')
+                    image_tag = image_div.find('img') if image_div else None
+                    image_url = image_tag['src'] if image_tag and 'src' in image_tag.attrs else "No Image"
 
-print("Scraping completed!")
+                    # Extract content
+                    entry_div = post_inner.find('div', class_='entry')
+                    paragraphs = entry_div.find_all('p') if entry_div else []
+                    content = "\n".join(p.text.strip() for p in paragraphs)
 
+                    # Create article document
+                    article_doc = {
+                        "url": article_url,
+                        "title": title,
+                        "image_url": image_url,
+                        "content": content,
+                        "scraped_at": datetime.now()
+                    }
 
-# 
-# import requests
-# from bs4 import BeautifulSoup
-# from pymongo import MongoClient
+                    # Store in MongoDB
+                    collection.insert_one(article_doc)
+                    new_articles_count += 1
+                    mongo_logger.info(f"Successfully stored article: {title}")
+                    scraper_logger.info(f"Processed article: {title}")
 
-# # MongoDB setup
-# client = MongoClient("mongodb+srv://smoke:smoke@cluster0.tye86.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-# db = client["chitram"]
-# collection = db["articles"]
+            except Exception as e:
+                error_logger.error(f"Error processing article {article_url if 'article_url' in locals() else 'Unknown'}: {str(e)}")
+                continue
 
-# # URL of the main articles page
-# main_url = 'https://www.gulte.com/movienews'
+        scraper_logger.info(f"Scraping completed. Added {new_articles_count} new articles")
+        return True
 
-# # Fetch the main page
-# response = requests.get(main_url)
+    except requests.exceptions.RequestException as e:
+        error_logger.error(f"Request error: {str(e)}")
+    except Exception as e:
+        error_logger.error(f"Unexpected error: {str(e)}")
+    return False
 
-# soup = BeautifulSoup(response.text, 'html.parser')
-
-# # Find all articles
-# articles = soup.find_all('div', class_='post-thumbnail')[1:]
-
-# for article in articles:
-#     a_tag = article.find('a')
-#     if not a_tag or 'href' not in a_tag.attrs:
-#         continue  # Skip if no valid link
-
-#     article_url = a_tag['href']
-
-#     # Check if article exists in MongoDB
-#     existing_article = collection.find_one({"url": article_url})
-    
-#     if existing_article:
-#         print('existing url')
-#         # If the article exists, check for missing image
-#         if not existing_article.get("image_url"):
-#             print('came here...')
-#             response = requests.get(article_url)
-#             article_soup = BeautifulSoup(response.text, 'html.parser')
-
-#             image_tag = article_soup.find('div', class_='single-post-thumb')
-#             image_url = image_tag.find('img')['src'] if image_tag and image_tag.find('img') else None
-            
-#             if image_url:
-#                 collection.update_one({"url": article_url}, {"$set": {"image_url": image_url}})
-#         continue  # Skip to next article
-
-#     # Fetch the article page
-#     response = requests.get(article_url)
-#     article_soup = BeautifulSoup(response.text, 'html.parser')
-
-#     # Extract title
-#     title_tag = article_soup.find('div', class_='post-inner').find('h1')
-#     title = title_tag.text.strip() if title_tag else "No Title"
-
-#     # Extract image URL
-#     image_tag = article_soup.find('div', class_='single-post-thumb')
-#     image_url = image_tag.find('img')['src'] if image_tag and image_tag.find('img') else None
-
-#     # Extract body content
-#     body_div = article_soup.find('div', class_='entry')
-#     paragraphs = body_div.find_all('p') if body_div else []
-#     body_text = "\n".join(p.text.strip() for p in paragraphs)
-
-#     # Save to MongoDB
-#     article_data = {
-#         "url": article_url,
-#         "title": title,
-#         "image_url": image_url,
-#         "body": body_text
-#     }
-#     collection.insert_one(article_data)
-
-# print("Scraping completed!")
-
-# 
+if __name__ == "__main__":
+    scrape_articles()
