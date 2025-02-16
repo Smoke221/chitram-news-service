@@ -25,7 +25,7 @@ def run_scraper():
         logging.error(f"Error running scraper: {e}")
 
 # Schedule the job to run every 1 hour
-schedule.every(1).hour.do(run_scraper)
+schedule.every(20).seconds.do(run_scraper)
 
 # Initial run
 run_scraper()
