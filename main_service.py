@@ -46,7 +46,7 @@ def run_scraper():
 # Scheduler Thread Function
 def run_scheduler():
     # Schedule the job to run every 20 seconds
-    schedule.every(20).seconds.do(run_scraper)
+    schedule.every(1).hour.do(run_scraper)
     logger.info("Scheduler started - Running scraper every 20 seconds")
 
     # Initial run
@@ -119,7 +119,7 @@ def main():
         
         # Run Flask app
         logger.info("Starting Flask application")
-        app.run(host='0.0.0.0', port=5000, debug=False)
+        app.run(host='0.0.0.0', port=8090, debug=False)
     except Exception as e:
         logger.error(f"Error in main execution: {str(e)}")
         raise
