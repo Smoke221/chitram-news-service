@@ -268,3 +268,197 @@ pymongo.errors.ConfigurationError: The resolution lifetime expired after 30187.4
 2025-02-22 16:50:47,426 - INFO: 10.0.18.204 - - [22/Feb/2025 16:50:47] "POST /city-movies HTTP/1.1" 200 -
 2025-02-22 16:50:54,045 - INFO: 10.0.18.204 - - [22/Feb/2025 16:50:54] "POST /city-movies HTTP/1.1" 200 -
 2025-02-22 16:50:56,328 - INFO: 10.0.18.204 - - [22/Feb/2025 16:50:56] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 17:05:04,173 - INFO: 10.0.18.204 - - [22/Feb/2025 17:05:04] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 17:05:19,519 - INFO: 10.0.18.204 - - [22/Feb/2025 17:05:19] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 17:06:57,184 - INFO: 10.0.18.204 - - [22/Feb/2025 17:06:57] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 17:10:33,644 - INFO: 10.0.18.204 - - [22/Feb/2025 17:10:33] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 17:12:08,038 - INFO: 10.0.18.204 - - [22/Feb/2025 17:12:08] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 17:19:45,448 - INFO: 10.0.18.204 - - [22/Feb/2025 17:19:45] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 17:23:16,679 - INFO: 10.0.18.204 - - [22/Feb/2025 17:23:16] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 17:23:28,568 - INFO: 10.0.18.204 - - [22/Feb/2025 17:23:28] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 17:23:37,340 - INFO: 10.0.18.204 - - [22/Feb/2025 17:23:37] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 17:23:44,345 - INFO: 10.0.18.204 - - [22/Feb/2025 17:23:44] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 17:23:54,157 - INFO: 10.0.18.204 - - [22/Feb/2025 17:23:54] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 17:23:56,308 - INFO: 10.0.18.204 - - [22/Feb/2025 17:23:56] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 17:26:25,738 - INFO: 10.0.18.204 - - [22/Feb/2025 17:26:25] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 17:32:59,357 - INFO: 10.0.18.204 - - [22/Feb/2025 17:32:59] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:33:22,872 - INFO: 10.0.18.204 - - [22/Feb/2025 17:33:22] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:33:54,855 - INFO: 10.0.18.204 - - [22/Feb/2025 17:33:54] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:34:18,969 - INFO: 10.0.18.204 - - [22/Feb/2025 17:34:18] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:34:32,871 - INFO: 10.0.18.204 - - [22/Feb/2025 17:34:32] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:34:34,667 - INFO: 10.0.18.204 - - [22/Feb/2025 17:34:34] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:35:41,262 - INFO: 10.0.18.204 - - [22/Feb/2025 17:35:41] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:35:51,126 - INFO: 10.0.18.204 - - [22/Feb/2025 17:35:51] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:35:52,158 - INFO: 10.0.18.204 - - [22/Feb/2025 17:35:52] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:36:52,736 - INFO: 10.0.18.204 - - [22/Feb/2025 17:36:52] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:36:54,837 - INFO: 10.0.18.204 - - [22/Feb/2025 17:36:54] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:37:00,725 - INFO: 10.0.18.204 - - [22/Feb/2025 17:37:00] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:38:58,882 - INFO: 10.0.18.204 - - [22/Feb/2025 17:38:58] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:39:12,014 - INFO: 10.0.18.204 - - [22/Feb/2025 17:39:12] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:39:28,947 - INFO: 10.0.18.204 - - [22/Feb/2025 17:39:28] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:39:32,700 - INFO: 10.0.18.204 - - [22/Feb/2025 17:39:32] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:39:36,936 - INFO: 10.0.18.204 - - [22/Feb/2025 17:39:36] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:40:17,449 - INFO: 10.0.18.204 - - [22/Feb/2025 17:40:17] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:40:22,717 - INFO: 10.0.18.204 - - [22/Feb/2025 17:40:22] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:40:37,175 - INFO: 10.0.18.204 - - [22/Feb/2025 17:40:37] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:40:50,229 - INFO: 10.0.18.204 - - [22/Feb/2025 17:40:50] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:40:54,333 - INFO: 10.0.18.204 - - [22/Feb/2025 17:40:54] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:41:02,099 - INFO: 10.0.18.204 - - [22/Feb/2025 17:41:02] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:41:15,156 - INFO: 10.0.18.204 - - [22/Feb/2025 17:41:15] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:41:19,790 - INFO: 10.0.18.204 - - [22/Feb/2025 17:41:19] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:41:22,228 - INFO: 10.0.18.204 - - [22/Feb/2025 17:41:22] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:41:25,599 - INFO: 10.0.18.204 - - [22/Feb/2025 17:41:25] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:41:29,889 - INFO: 10.0.18.204 - - [22/Feb/2025 17:41:29] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:41:34,195 - INFO: 10.0.18.204 - - [22/Feb/2025 17:41:34] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:41:40,395 - INFO: 10.0.18.204 - - [22/Feb/2025 17:41:40] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:42:12,614 - INFO: 10.0.18.204 - - [22/Feb/2025 17:42:12] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:42:21,906 - INFO: 10.0.18.204 - - [22/Feb/2025 17:42:21] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:42:32,925 - INFO: 10.0.18.204 - - [22/Feb/2025 17:42:32] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:42:35,581 - INFO: 10.0.18.204 - - [22/Feb/2025 17:42:35] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:48:52,723 - INFO: Starting scraper
+2025-02-22 17:48:59,612 - INFO: Scraper completed successfully
+2025-02-22 17:53:21,960 - INFO: 10.0.18.204 - - [22/Feb/2025 17:53:21] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:53:23,734 - INFO: 10.0.18.204 - - [22/Feb/2025 17:53:23] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 17:53:39,190 - INFO: 10.0.18.204 - - [22/Feb/2025 17:53:39] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 17:53:40,866 - INFO: 10.0.18.204 - - [22/Feb/2025 17:53:40] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 17:55:44,833 - INFO: 10.0.18.204 - - [22/Feb/2025 17:55:44] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 18:03:10,766 - INFO: 10.0.18.204 - - [22/Feb/2025 18:03:10] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 18:03:12,531 - INFO: 10.0.18.204 - - [22/Feb/2025 18:03:12] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 18:03:44,451 - INFO: 10.0.18.204 - - [22/Feb/2025 18:03:44] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 18:05:37,070 - INFO: 10.0.18.204 - - [22/Feb/2025 18:05:37] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 18:07:14,531 - INFO: 10.0.18.204 - - [22/Feb/2025 18:07:14] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 18:07:20,864 - INFO: 10.0.18.204 - - [22/Feb/2025 18:07:20] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 18:07:24,035 - INFO: 10.0.18.204 - - [22/Feb/2025 18:07:24] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 18:07:38,871 - INFO: 10.0.18.204 - - [22/Feb/2025 18:07:38] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 18:07:48,871 - INFO: 10.0.18.204 - - [22/Feb/2025 18:07:48] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 18:07:53,417 - INFO: 10.0.18.204 - - [22/Feb/2025 18:07:53] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 18:21:25,885 - INFO: 10.0.18.204 - - [22/Feb/2025 18:21:25] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 18:21:38,522 - INFO: 10.0.18.204 - - [22/Feb/2025 18:21:38] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 18:23:10,145 - INFO: 10.0.18.204 - - [22/Feb/2025 18:23:10] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 18:23:10,382 - INFO: 10.0.18.204 - - [22/Feb/2025 18:23:10] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 18:23:11,898 - INFO: 10.0.18.204 - - [22/Feb/2025 18:23:11] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 18:23:13,090 - INFO: 10.0.18.204 - - [22/Feb/2025 18:23:13] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 18:23:13,101 - INFO: 10.0.18.204 - - [22/Feb/2025 18:23:13] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 18:23:14,772 - INFO: 10.0.18.204 - - [22/Feb/2025 18:23:14] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 18:49:00,581 - INFO: Starting scraper
+2025-02-22 18:49:09,202 - INFO: Scraper completed successfully
+2025-02-22 18:49:27,590 - INFO: 10.0.18.204 - - [22/Feb/2025 18:49:27] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 18:49:29,927 - INFO: 10.0.18.204 - - [22/Feb/2025 18:49:29] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 18:54:33,042 - INFO: 10.0.18.204 - - [22/Feb/2025 18:54:33] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:04:06,293 - INFO: 10.0.18.204 - - [22/Feb/2025 19:04:06] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:04:08,387 - INFO: 10.0.18.204 - - [22/Feb/2025 19:04:08] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 19:10:16,968 - INFO: 10.0.18.204 - - [22/Feb/2025 19:10:16] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:10:18,896 - INFO: 10.0.18.204 - - [22/Feb/2025 19:10:18] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 19:11:26,223 - INFO: 10.0.18.204 - - [22/Feb/2025 19:11:26] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:11:27,950 - INFO: 10.0.18.204 - - [22/Feb/2025 19:11:27] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 19:11:31,754 - INFO: 10.0.18.204 - - [22/Feb/2025 19:11:31] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:11:33,541 - INFO: 10.0.18.204 - - [22/Feb/2025 19:11:33] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 19:11:58,363 - INFO: 10.0.18.204 - - [22/Feb/2025 19:11:58] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:12:00,195 - INFO: 10.0.18.204 - - [22/Feb/2025 19:12:00] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 19:12:29,841 - INFO: 10.0.18.204 - - [22/Feb/2025 19:12:29] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:12:31,649 - INFO: 10.0.18.204 - - [22/Feb/2025 19:12:31] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 19:12:37,077 - INFO: 10.0.18.204 - - [22/Feb/2025 19:12:37] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:12:38,978 - INFO: 10.0.18.204 - - [22/Feb/2025 19:12:38] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 19:12:41,792 - INFO: 10.0.18.204 - - [22/Feb/2025 19:12:41] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:12:43,794 - INFO: 10.0.18.204 - - [22/Feb/2025 19:12:43] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 19:21:26,044 - INFO: 10.0.18.204 - - [22/Feb/2025 19:21:26] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:21:27,464 - INFO: 10.0.18.204 - - [22/Feb/2025 19:21:27] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 19:24:29,258 - INFO: 10.0.18.204 - - [22/Feb/2025 19:24:29] "[33mPOST /city-movis HTTP/1.1[0m" 404 -
+2025-02-22 19:24:50,270 - INFO: 10.0.18.204 - - [22/Feb/2025 19:24:50] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:24:50,294 - INFO: 10.0.18.204 - - [22/Feb/2025 19:24:50] "[33mPOST /city-movis HTTP/1.1[0m" 404 -
+2025-02-22 19:25:12,197 - INFO: 10.0.18.204 - - [22/Feb/2025 19:25:12] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 19:25:45,672 - INFO: 10.0.18.204 - - [22/Feb/2025 19:25:45] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:25:47,099 - INFO: 10.0.18.204 - - [22/Feb/2025 19:25:47] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 19:26:05,298 - INFO: 10.0.18.204 - - [22/Feb/2025 19:26:05] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:26:06,371 - INFO: 10.0.18.204 - - [22/Feb/2025 19:26:06] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 19:26:56,649 - INFO: 10.0.18.204 - - [22/Feb/2025 19:26:56] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:26:57,768 - INFO: 10.0.18.204 - - [22/Feb/2025 19:26:57] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 19:27:45,396 - INFO: 10.0.18.204 - - [22/Feb/2025 19:27:45] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:27:46,601 - INFO: 10.0.18.204 - - [22/Feb/2025 19:27:46] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 19:28:46,432 - INFO: 10.0.18.204 - - [22/Feb/2025 19:28:46] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:28:47,572 - INFO: 10.0.18.204 - - [22/Feb/2025 19:28:47] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 19:29:17,776 - INFO: 10.0.18.204 - - [22/Feb/2025 19:29:17] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:29:19,027 - INFO: 10.0.18.204 - - [22/Feb/2025 19:29:19] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 19:32:31,658 - INFO: 10.0.18.204 - - [22/Feb/2025 19:32:31] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:32:32,873 - INFO: 10.0.18.204 - - [22/Feb/2025 19:32:32] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 19:32:40,364 - INFO: 10.0.18.204 - - [22/Feb/2025 19:32:40] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:32:41,861 - INFO: 10.0.18.204 - - [22/Feb/2025 19:32:41] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 19:34:16,379 - INFO: 10.0.18.204 - - [22/Feb/2025 19:34:16] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:34:17,671 - INFO: 10.0.18.204 - - [22/Feb/2025 19:34:17] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 19:34:30,657 - INFO: 10.0.18.204 - - [22/Feb/2025 19:34:30] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:36:44,032 - INFO: 10.0.18.204 - - [22/Feb/2025 19:36:44] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:36:44,039 - INFO: 10.0.18.204 - - [22/Feb/2025 19:36:44] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:36:45,141 - INFO: 10.0.18.204 - - [22/Feb/2025 19:36:45] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 19:36:58,064 - INFO: 10.0.18.204 - - [22/Feb/2025 19:36:58] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:36:59,265 - INFO: 10.0.18.204 - - [22/Feb/2025 19:36:59] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 19:37:31,988 - INFO: 10.0.18.204 - - [22/Feb/2025 19:37:31] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:38:48,432 - INFO: 10.0.18.204 - - [22/Feb/2025 19:38:48] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:41:29,640 - INFO: 10.0.18.204 - - [22/Feb/2025 19:41:29] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 19:41:42,052 - INFO: 10.0.18.204 - - [22/Feb/2025 19:41:42] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 19:41:53,956 - INFO: 10.0.18.204 - - [22/Feb/2025 19:41:53] "[33mPOST /city-movies HTTP/1.1[0m" 404 -
+2025-02-22 19:41:59,635 - INFO: 10.0.18.204 - - [22/Feb/2025 19:41:59] "[33mPOST /city-movies HTTP/1.1[0m" 404 -
+2025-02-22 19:42:02,381 - INFO: 10.0.18.204 - - [22/Feb/2025 19:42:02] "[33mPOST /city-movies HTTP/1.1[0m" 404 -
+2025-02-22 19:42:07,535 - INFO: 10.0.18.204 - - [22/Feb/2025 19:42:07] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 19:42:40,384 - INFO: 10.0.18.204 - - [22/Feb/2025 19:42:40] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 19:42:49,894 - INFO: 10.0.18.204 - - [22/Feb/2025 19:42:49] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 19:45:47,266 - INFO: 10.0.18.204 - - [22/Feb/2025 19:45:47] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:45:48,691 - INFO: 10.0.18.204 - - [22/Feb/2025 19:45:48] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 19:49:09,516 - INFO: Starting scraper
+2025-02-22 19:49:16,063 - INFO: Scraper completed successfully
+2025-02-22 19:49:26,566 - INFO: 10.0.18.204 - - [22/Feb/2025 19:49:26] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:57:21,843 - INFO: 10.0.18.204 - - [22/Feb/2025 19:57:21] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:57:24,074 - INFO: 10.0.18.204 - - [22/Feb/2025 19:57:24] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:57:30,490 - INFO: 10.0.18.204 - - [22/Feb/2025 19:57:30] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:57:40,302 - INFO: 10.0.18.204 - - [22/Feb/2025 19:57:40] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:57:43,443 - INFO: 10.0.18.204 - - [22/Feb/2025 19:57:43] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:57:59,592 - INFO: 10.0.18.204 - - [22/Feb/2025 19:57:59] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:58:06,184 - INFO: 10.0.18.204 - - [22/Feb/2025 19:58:06] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:58:35,495 - INFO: 10.0.18.204 - - [22/Feb/2025 19:58:35] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 19:58:47,423 - INFO: 10.0.18.204 - - [22/Feb/2025 19:58:47] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 20:00:13,362 - INFO: 10.0.18.204 - - [22/Feb/2025 20:00:13] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 20:16:19,951 - INFO: Scheduler started - Running scraper every 20 seconds
+2025-02-22 20:16:19,951 - INFO: Started scheduler thread
+2025-02-22 20:16:19,951 - INFO: Starting scraper
+2025-02-22 20:16:19,951 - INFO: Starting Flask application
+2025-02-22 20:16:19,974 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8090
+ * Running on http://10.0.18.177:8090
+2025-02-22 20:16:19,975 - INFO: [33mPress CTRL+C to quit[0m
+2025-02-22 20:16:26,013 - INFO: Scraper completed successfully
+2025-02-22 20:16:31,778 - INFO: 10.0.18.204 - - [22/Feb/2025 20:16:31] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 20:16:36,552 - INFO: 10.0.18.204 - - [22/Feb/2025 20:16:36] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-22 20:17:18,409 - INFO: 10.0.18.204 - - [22/Feb/2025 20:17:18] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 20:17:38,143 - INFO: Scheduler started - Running scraper every 20 seconds
+2025-02-22 20:17:38,143 - INFO: Starting scraper
+2025-02-22 20:17:38,143 - INFO: Started scheduler thread
+2025-02-22 20:17:38,145 - INFO: Starting Flask application
+2025-02-22 20:17:38,157 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8090
+ * Running on http://10.0.18.177:8090
+2025-02-22 20:17:38,157 - INFO: [33mPress CTRL+C to quit[0m
+2025-02-22 20:17:44,160 - INFO: Scraper completed successfully
+2025-02-22 20:17:57,416 - INFO: 10.0.18.204 - - [22/Feb/2025 20:17:57] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 20:21:05,299 - INFO: Scheduler started - Running scraper every 20 seconds
+2025-02-22 20:21:05,299 - INFO: Started scheduler thread
+2025-02-22 20:21:05,300 - INFO: Starting Flask application
+2025-02-22 20:21:05,300 - INFO: Starting scraper
+2025-02-22 20:21:05,313 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8090
+ * Running on http://10.0.18.177:8090
+2025-02-22 20:21:05,313 - INFO: [33mPress CTRL+C to quit[0m
+2025-02-22 20:21:11,435 - INFO: Scraper completed successfully
+2025-02-22 20:21:39,763 - INFO: 10.0.18.204 - - [22/Feb/2025 20:21:39] "[35m[1mPOST /city-movies HTTP/1.1[0m" 500 -
+2025-02-22 20:22:41,395 - INFO: Scheduler started - Running scraper every 20 seconds
+2025-02-22 20:22:41,395 - INFO: Started scheduler thread
+2025-02-22 20:22:41,395 - INFO: Starting scraper
+2025-02-22 20:22:41,397 - INFO: Starting Flask application
+2025-02-22 20:22:41,414 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8090
+ * Running on http://10.0.18.177:8090
+2025-02-22 20:22:41,415 - INFO: [33mPress CTRL+C to quit[0m
+2025-02-22 20:22:47,563 - INFO: Scraper completed successfully
+2025-02-22 20:23:09,289 - INFO: 127.0.0.1 - - [22/Feb/2025 20:23:09] "[35m[1mPOST /city-movies HTTP/1.1[0m" 500 -

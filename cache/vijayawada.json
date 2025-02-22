@@ -1,0 +1,102 @@
+{
+    "timestamp": "2025-02-22T20:27:24.316491",
+    "movies": [
+        {
+            "name": "Thandel",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Thandel--608x800-a19dcbf0-271e-11ef-8a23-77631e928195.jpg",
+            "rating": 9.4,
+            "languages": [
+                "Telugu"
+            ]
+        },
+        {
+            "name": "Sankranthiki Vasthunam",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Sankranthiki-Vasthunam--c487e410-cce2-11ef-9d5d-039fb0afc1eb.jpg",
+            "rating": null,
+            "languages": [
+                "Telugu"
+            ]
+        },
+        {
+            "name": "Return of the Dragon",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/WhatsApp%20Image%202025-02-19%20at%208.57.49%20PM-36939b70-eed6-11ef-bd85-99649fab9b6d.jpeg",
+            "rating": 9.2,
+            "languages": [
+                "Telugu"
+            ]
+        },
+        {
+            "name": "Chhaava",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Chhaava-886b2360-e2dc-11ef-8f0a-13039e72f1f5.jpg",
+            "rating": 9.4,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Jaabilamma Neeku Antha Kopama",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Jaabilamma-Neeku-Antha-Kopama-1d049230-edbf-11ef-8cb3-05c6c7d276fb.jpg",
+            "rating": null,
+            "languages": [
+                "Telugu"
+            ]
+        },
+        {
+            "name": "Captain America: Brave New World",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Captain-America--Brave-New-World-341dfb20-e39f-11ef-8f0a-13039e72f1f5.jpg",
+            "rating": 6.7,
+            "languages": [
+                "Telugu",
+                "English"
+            ]
+        },
+        {
+            "name": "Ramam Raghavam",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Ramam-27bb3c40-ee93-11ef-8cb3-05c6c7d276fb.jpeg",
+            "rating": null,
+            "languages": [
+                "Telugu"
+            ]
+        },
+        {
+            "name": "Brahma Anandam",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Brahma-Anandam-1--600X800-bd8de1e0-e7af-11ef-92d2-15600bedb040.jpg",
+            "rating": 8.6,
+            "languages": [
+                "Telugu"
+            ]
+        },
+        {
+            "name": "Mere Husband Ki Biwi",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/merehu-d9eb7b30-edfa-11ef-8cb3-05c6c7d276fb.jpg",
+            "rating": null,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Dragon",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Dragon-86633f90-edcb-11ef-8cb3-05c6c7d276fb.jpeg",
+            "rating": 9.2,
+            "languages": [
+                "Tamil"
+            ]
+        },
+        {
+            "name": "Officer on Duty",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/_Officer-on-duty--600X800-d5fccfb0-cc2b-11ef-a259-4b3c6d26f4a9.jpg",
+            "rating": null,
+            "languages": [
+                "Malayalam"
+            ]
+        },
+        {
+            "name": "Baapu (A Fathers Story)",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Baapu-(A-Fathers-Story)-0a6e88c0-edbe-11ef-8cb3-05c6c7d276fb.jpg",
+            "rating": null,
+            "languages": [
+                "Telugu"
+            ]
+        }
+    ]
+}

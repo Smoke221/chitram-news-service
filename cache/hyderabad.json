@@ -1,0 +1,312 @@
+{
+    "timestamp": "2025-02-22T20:25:24.678362",
+    "movies": [
+        {
+            "name": "Thandel",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Thandel--608x800-a19dcbf0-271e-11ef-8a23-77631e928195.jpg",
+            "rating": 9.4,
+            "languages": [
+                "Telugu"
+            ]
+        },
+        {
+            "name": "Sankranthiki Vasthunam",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Sankranthiki-Vasthunam--c487e410-cce2-11ef-9d5d-039fb0afc1eb.jpg",
+            "rating": null,
+            "languages": [
+                "Telugu"
+            ]
+        },
+        {
+            "name": "Chhaava",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Chhaava-886b2360-e2dc-11ef-8f0a-13039e72f1f5.jpg",
+            "rating": 9.4,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Return of the Dragon",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/WhatsApp%20Image%202025-02-19%20at%208.57.49%20PM-36939b70-eed6-11ef-bd85-99649fab9b6d.jpeg",
+            "rating": 9.2,
+            "languages": [
+                "Telugu"
+            ]
+        },
+        {
+            "name": "Jaabilamma Neeku Antha Kopama",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Jaabilamma-Neeku-Antha-Kopama-1d049230-edbf-11ef-8cb3-05c6c7d276fb.jpg",
+            "rating": null,
+            "languages": [
+                "Telugu"
+            ]
+        },
+        {
+            "name": "Mere Husband Ki Biwi",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/merehu-d9eb7b30-edfa-11ef-8cb3-05c6c7d276fb.jpg",
+            "rating": null,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Baapu (A Fathers Story)",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Baapu-(A-Fathers-Story)-0a6e88c0-edbe-11ef-8cb3-05c6c7d276fb.jpg",
+            "rating": null,
+            "languages": [
+                "Telugu"
+            ]
+        },
+        {
+            "name": "Captain America: Brave New World",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Captain-America--Brave-New-World-341dfb20-e39f-11ef-8f0a-13039e72f1f5.jpg",
+            "rating": 6.7,
+            "languages": [
+                "English",
+                "Telugu",
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Sanam Teri Kasam (2016)",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Sanam-Teri-Kasam-c3f6b7e0-de0a-11ef-9a57-a7efe77237ab.jpg",
+            "rating": 9.7,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Brahma Anandam",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Brahma-Anandam-1--600X800-bd8de1e0-e7af-11ef-92d2-15600bedb040.jpg",
+            "rating": 8.6,
+            "languages": [
+                "Telugu"
+            ]
+        },
+        {
+            "name": "Dragon",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Dragon-86633f90-edcb-11ef-8cb3-05c6c7d276fb.jpeg",
+            "rating": 9.2,
+            "languages": [
+                "Tamil"
+            ]
+        },
+        {
+            "name": "Orange (2010)",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Orange--608x800-acfb9230-c8b4-11ed-9075-21ed6f4d1376.jpg",
+            "rating": 9.8,
+            "languages": [
+                "Telugu"
+            ]
+        },
+        {
+            "name": "Officer on Duty",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/_Officer-on-duty--600X800-d5fccfb0-cc2b-11ef-a259-4b3c6d26f4a9.jpg",
+            "rating": null,
+            "languages": [
+                "Malayalam"
+            ]
+        },
+        {
+            "name": "Ramam Raghavam",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Ramam-27bb3c40-ee93-11ef-8cb3-05c6c7d276fb.jpeg",
+            "rating": null,
+            "languages": [
+                "Telugu"
+            ]
+        },
+        {
+            "name": "Badass Ravi kumar",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Badass-Ravikumar--cecfce00-e2c3-11ef-8f0a-13039e72f1f5.jpg",
+            "rating": 7.9,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Babygirl",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/WhatsApp%20Image%202025-02-18%20at%208.28.25%20PM-e5ff7d50-ee08-11ef-8cb3-05c6c7d276fb.jpeg",
+            "rating": null,
+            "languages": [
+                "English"
+            ]
+        },
+        {
+            "name": "Get Set Baby",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Get-Set-Baby-ae412270-edc1-11ef-bc88-6d3374531046.jpg",
+            "rating": null,
+            "languages": [
+                "Malayalam"
+            ]
+        },
+        {
+            "name": "Nilavuku Enmel Ennadi Kobam",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Nilavuku-En-Mel-Ennadi-Kobam--Poster-fe3fdc40-d7c2-11ef-b68a-217a8a741140.jpg",
+            "rating": 8.1,
+            "languages": [
+                "Tamil"
+            ]
+        },
+        {
+            "name": "The Devil's Chair",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/The-Devil's-Chair-7ed2e970-edc0-11ef-bc88-6d3374531046.jpg",
+            "rating": null,
+            "languages": [
+                "Telugu"
+            ]
+        },
+        {
+            "name": "Dark Nuns",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Dark-Nuns--3d12d490-edc1-11ef-bc88-6d3374531046.jpg",
+            "rating": null,
+            "languages": [
+                "Korean"
+            ]
+        },
+        {
+            "name": "Kudumbasthan",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Kudumbasthan-Poster-226a0b50-d7cc-11ef-b68a-217a8a741140.jpg",
+            "rating": 9.3,
+            "languages": [
+                "Tamil"
+            ]
+        },
+        {
+            "name": "Bridget Jones: Mad About The Boy",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Bridget-995e74e0-e5f4-11ef-b243-a1b813d1dc02.jpeg",
+            "rating": null,
+            "languages": [
+                "English"
+            ]
+        },
+        {
+            "name": "Nayak (1966)",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Nayak-15c0def0-ee84-11ef-8cb3-05c6c7d276fb.jpeg",
+            "rating": null,
+            "languages": [
+                "Bengali"
+            ]
+        },
+        {
+            "name": "Mufasa: The Lion King  (2024)",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Mufasa--The-Lion-King--91f1d3b0-b623-11ef-9da2-6140c117941c.jpg",
+            "rating": 9.1,
+            "languages": [
+                "Telugu",
+                "English"
+            ]
+        },
+        {
+            "name": "Moana 2 (2024)",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Moana-2--608x800-522ef640-337e-11ef-95aa-f7343890830b-3461d0a0-ab25-11ef-8bec-85ca743197e0.jpg",
+            "rating": 7.7,
+            "languages": [
+                "English"
+            ]
+        },
+        {
+            "name": "Kuch Sapney Apne",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Kuch-Sapney-Apne-b0bac460-e773-11ef-b0cb-6f1a8f777f1f.jpg",
+            "rating": null,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Companion",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Companion-16bebfa0-dcac-11ef-9e47-6f680c328797.jpg",
+            "rating": null,
+            "languages": [
+                "English"
+            ]
+        },
+        {
+            "name": "Sky Force",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/WhatsApp%20Image%202025-01-20%20at%208.10.00%20PM-859d1a90-d73c-11ef-ba8a-338a2e567ebd.jpeg",
+            "rating": 9.1,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Inside Out 2 (2024)",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Inside-Out-2--608x800-41bbc410-249b-11ef-a342-13ea6c7d9d31.jpg",
+            "rating": 7.8,
+            "languages": [
+                "English"
+            ]
+        },
+        {
+            "name": "Oye (2009)",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Oye-608x800-0bd89d10-c676-11ee-85c6-4b12fb3048f0.jpg",
+            "rating": 9.8,
+            "languages": [
+                "Telugu"
+            ]
+        },
+        {
+            "name": "A Real Pain",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/A-Real-Pain---608x800-8b8b5570-8e35-11ef-902c-0f8b88e9823c.jpg",
+            "rating": null,
+            "languages": [
+                "English"
+            ]
+        },
+        {
+            "name": "The Wild Robot (2024)",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/The-Wild-Robot--608x800-87a5a610-86fe-11ef-b30d-5d8b2ded08e1.jpg",
+            "rating": null,
+            "languages": [
+                "English"
+            ]
+        },
+        {
+            "name": "The Seed Of The Sacred Fig",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/The-Seed-Of-The-Sacred-Fig--Poster-cdd6e500-d7c0-11ef-b68a-217a8a741140.jpg",
+            "rating": null,
+            "languages": [
+                "Persian"
+            ]
+        },
+        {
+            "name": "Bunty aur Babli (2005)",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/bunty-aur-babli_app-poster_608x800-eac997fa-b119-4850-935f-03e1bdb72669.jpg",
+            "rating": null,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Sonic the Hedgehog 3",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Sonic-the-Hedgehog-3---600X800-6dd29e30-c68e-11ef-a259-4b3c6d26f4a9.jpg",
+            "rating": null,
+            "languages": [
+                "English"
+            ]
+        },
+        {
+            "name": "Wicked (2024)",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Wicked--562d2200-a5a5-11ef-83c7-45b404db6ec5.jpg",
+            "rating": null,
+            "languages": [
+                "English"
+            ]
+        },
+        {
+            "name": "Top Gun: Maverick (2022)",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Top-Gun--Maverick--608x800-09728b10-cc7e-11ec-9110-77d6e3ad5005.jpg",
+            "rating": 9.2,
+            "languages": [
+                "English"
+            ]
+        },
+        {
+            "name": "Aankhen (2002)",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Aankhen-(2002)-26172f80-ef5f-11ef-8cb3-05c6c7d276fb.jpg",
+            "rating": null,
+            "languages": [
+                "Hindi"
+            ]
+        }
+    ]
+}

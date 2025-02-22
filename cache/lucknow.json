@@ -1,0 +1,134 @@
+{
+    "timestamp": "2025-02-22T20:27:34.471530",
+    "movies": [
+        {
+            "name": "Deva",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Deva-9e0ee020-dc89-11ef-8051-f1d2444f0349-172a3830-df08-11ef-8d3b-69192b9fb9f8.jpg",
+            "rating": 7.6,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Chhaava",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Chhaava%20(2)-868c83e0-e543-11ef-b81b-0b27199565f2.jpg",
+            "rating": 9.4,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Mere Husband Ki Biwi",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/merehu-d9eb7b30-edfa-11ef-8cb3-05c6c7d276fb.jpg",
+            "rating": null,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Sanam Teri Kasam (2016)",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Sanam-Teri-Kasam-c3f6b7e0-de0a-11ef-9a57-a7efe77237ab.jpg",
+            "rating": 9.7,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Captain America: Brave New World",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Captain-America--Brave-New-World-2cf2c3e0-e39e-11ef-ac94-fb4448095432.jpg",
+            "rating": 6.7,
+            "languages": [
+                "Hindi",
+                "English"
+            ]
+        },
+        {
+            "name": "Sky Force",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/WhatsApp%20Image%202025-01-20%20at%208.10.00%20PM-859d1a90-d73c-11ef-ba8a-338a2e567ebd.jpeg",
+            "rating": 9.1,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Loveyapa",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/loveyappa-a65cca50-e2bd-11ef-8f0a-13039e72f1f5.jpg",
+            "rating": 6,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Nilavuku Enmel Ennadi Kobam",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Nilavuku-En-Mel-Ennadi-Kobam--Poster-fe3fdc40-d7c2-11ef-b68a-217a8a741140.jpg",
+            "rating": 8.1,
+            "languages": [
+                "Tamil"
+            ]
+        },
+        {
+            "name": "Dragon",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Dragon-86633f90-edcb-11ef-8cb3-05c6c7d276fb.jpeg",
+            "rating": 9.2,
+            "languages": [
+                "Tamil"
+            ]
+        },
+        {
+            "name": "Kuch Sapney Apne",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Kuch-Sapney-Apne-b0bac460-e773-11ef-b0cb-6f1a8f777f1f.jpg",
+            "rating": null,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Mufasa: The Lion King  (2024)",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Mufasa--The-Lion-King--b7c90590-b623-11ef-9da2-6140c117941c.jpg",
+            "rating": 9.1,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Bolo Har Har Shambhu",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Bolo-Har-Har-Shambhu-f696bc20-ef5f-11ef-bd85-99649fab9b6d.jpg",
+            "rating": null,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Officer on Duty",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/_Officer-on-duty--600X800-d5fccfb0-cc2b-11ef-a259-4b3c6d26f4a9.jpg",
+            "rating": null,
+            "languages": [
+                "Malayalam"
+            ]
+        },
+        {
+            "name": "Get Set Baby",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Get-Set-Baby-ae412270-edc1-11ef-bc88-6d3374531046.jpg",
+            "rating": null,
+            "languages": [
+                "Malayalam"
+            ]
+        },
+        {
+            "name": "Ramayana: The Legend of Prince Rama",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Ramayana--The-Legend-of-Prince-Rama%20(2)-15feeac0-d97a-11ef-ae28-cd7d2b647bb3.jpg",
+            "rating": null,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Badass Ravi kumar",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Badass-Ravikumar--cecfce00-e2c3-11ef-8f0a-13039e72f1f5.jpg",
+            "rating": 7.9,
+            "languages": [
+                "Hindi"
+            ]
+        }
+    ]
+}

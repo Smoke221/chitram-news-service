@@ -1,0 +1,102 @@
+{
+    "timestamp": "2025-02-22T20:27:44.130174",
+    "movies": [
+        {
+            "name": "Chhaava",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Chhaava-886b2360-e2dc-11ef-8f0a-13039e72f1f5.jpg",
+            "rating": 9.4,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Mere Husband Ki Biwi",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/merehu-d9eb7b30-edfa-11ef-8cb3-05c6c7d276fb.jpg",
+            "rating": null,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Captain America: Brave New World",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Captain-America--Brave-New-World-ae972170-e2db-11ef-ac94-fb4448095432-87dc4bb0-e2ee-11ef-ac94-fb4448095432.jpg",
+            "rating": 6.7,
+            "languages": [
+                "Hindi",
+                "English"
+            ]
+        },
+        {
+            "name": "Sanam Teri Kasam (2016)",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Sanam-Teri-Kasam-c3f6b7e0-de0a-11ef-9a57-a7efe77237ab.jpg",
+            "rating": 9.7,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Sky Force",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/WhatsApp%20Image%202025-01-20%20at%208.10.00%20PM-859d1a90-d73c-11ef-ba8a-338a2e567ebd.jpeg",
+            "rating": 9.1,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Loveyapa",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/loveyappa-a65cca50-e2bd-11ef-8f0a-13039e72f1f5.jpg",
+            "rating": 6,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Deva",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Deva-9e0ee020-dc89-11ef-8051-f1d2444f0349-172a3830-df08-11ef-8d3b-69192b9fb9f8.jpg",
+            "rating": 7.6,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Babygirl",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/WhatsApp%20Image%202025-02-18%20at%208.28.25%20PM-e5ff7d50-ee08-11ef-8cb3-05c6c7d276fb.jpeg",
+            "rating": null,
+            "languages": [
+                "English"
+            ]
+        },
+        {
+            "name": "Dragon",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Dragon-86633f90-edcb-11ef-8cb3-05c6c7d276fb.jpeg",
+            "rating": 9.2,
+            "languages": [
+                "Tamil"
+            ]
+        },
+        {
+            "name": "Get Set Baby",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Get-Set-Baby-ae412270-edc1-11ef-bc88-6d3374531046.jpg",
+            "rating": null,
+            "languages": [
+                "Malayalam"
+            ]
+        },
+        {
+            "name": "Ghaprol",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Ghaprol-96f54fc0-d7e0-11ef-83bf-1dede4761f84.jpg",
+            "rating": null,
+            "languages": [
+                "Garhwali"
+            ]
+        },
+        {
+            "name": "ICC Champions Trophy 2025 India vs Pakistan",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/ICC-Champions-Trophy-2025-India-vs-Pakistan-62d73fa0-ef5f-11ef-8cb3-05c6c7d276fb.jpg",
+            "rating": null,
+            "languages": [
+                "Hindi"
+            ]
+        }
+    ]
+}
