@@ -8,6 +8,7 @@ from pymongo import MongoClient
 import json
 from bson.json_util import dumps
 import os
+from paytm import scrape_nowplaying
 
 # Create logs directory if it doesn't exist
 if not os.path.exists('logs'):
@@ -108,6 +109,45 @@ def get_latest_articles():
     except Exception as e:
         logger.error(f"Error in /latest-articles endpoint: {str(e)}")
         return jsonify({'error': str(e)}), 500
+
+@app.route('/city-movies', methods=['POST'])
+def get_city_movies():
+    """
+    Dynamic endpoint to fetch movies for a given city.
+    
+    Expected JSON payload:
+    {
+        "city": "City Name"
+    }
+    
+    Returns:
+        JSON response with movies playing in the specified city
+    """
+    try:
+        # Get city from request JSON
+        data = request.get_json()
+        city = data.get('city', 'mumbai').lower()  # Default to Mumbai if no city provided
+        
+        # Call the scraping function
+        movies = scrape_nowplaying(city)
+        
+        if not movies:
+            return jsonify({
+                "message": f"No movies found for {city}",
+                "city": city
+            }), 404
+        
+        return jsonify({
+            "city": city,
+            "total_movies": len(movies),
+            "movies": movies
+        }), 200
+    
+    except Exception as e:
+        return jsonify({
+            "error": f"Error fetching movies: {str(e)}",
+            "city": city
+        }), 500
 
 # Main Execution
 def main():
