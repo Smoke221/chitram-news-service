@@ -1,5 +1,5 @@
 {
-    "timestamp": "2025-02-22T20:27:44.130174",
+    "timestamp": "2025-02-24T19:46:55.766973",
     "movies": [
         {
             "name": "Chhaava",
@@ -19,8 +19,8 @@
         },
         {
             "name": "Captain America: Brave New World",
-            "poster": "https://assetscdn1.paytm.com/images/cinema/Captain-America--Brave-New-World-ae972170-e2db-11ef-ac94-fb4448095432-87dc4bb0-e2ee-11ef-ac94-fb4448095432.jpg",
-            "rating": 6.7,
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Captain-America--Brave-New-World-ae972170-e2db-11ef-ac94-fb4448095432-2f955710-e552-11ef-b81b-0b27199565f2.jpg",
+            "rating": 6.8,
             "languages": [
                 "Hindi",
                 "English"
@@ -43,6 +43,14 @@
             ]
         },
         {
+            "name": "Dragon",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Dragon-86633f90-edcb-11ef-8cb3-05c6c7d276fb.jpeg",
+            "rating": 9.5,
+            "languages": [
+                "Tamil"
+            ]
+        },
+        {
             "name": "Loveyapa",
             "poster": "https://assetscdn1.paytm.com/images/cinema/loveyappa-a65cca50-e2bd-11ef-8f0a-13039e72f1f5.jpg",
             "rating": 6,
@@ -59,43 +67,11 @@
             ]
         },
         {
-            "name": "Babygirl",
-            "poster": "https://assetscdn1.paytm.com/images/cinema/WhatsApp%20Image%202025-02-18%20at%208.28.25%20PM-e5ff7d50-ee08-11ef-8cb3-05c6c7d276fb.jpeg",
-            "rating": null,
-            "languages": [
-                "English"
-            ]
-        },
-        {
-            "name": "Dragon",
-            "poster": "https://assetscdn1.paytm.com/images/cinema/Dragon-86633f90-edcb-11ef-8cb3-05c6c7d276fb.jpeg",
-            "rating": 9.2,
-            "languages": [
-                "Tamil"
-            ]
-        },
-        {
-            "name": "Get Set Baby",
-            "poster": "https://assetscdn1.paytm.com/images/cinema/Get-Set-Baby-ae412270-edc1-11ef-bc88-6d3374531046.jpg",
-            "rating": null,
-            "languages": [
-                "Malayalam"
-            ]
-        },
-        {
             "name": "Ghaprol",
             "poster": "https://assetscdn1.paytm.com/images/cinema/Ghaprol-96f54fc0-d7e0-11ef-83bf-1dede4761f84.jpg",
             "rating": null,
             "languages": [
                 "Garhwali"
-            ]
-        },
-        {
-            "name": "ICC Champions Trophy 2025 India vs Pakistan",
-            "poster": "https://assetscdn1.paytm.com/images/cinema/ICC-Champions-Trophy-2025-India-vs-Pakistan-62d73fa0-ef5f-11ef-8cb3-05c6c7d276fb.jpg",
-            "rating": null,
-            "languages": [
-                "Hindi"
             ]
         }
     ]

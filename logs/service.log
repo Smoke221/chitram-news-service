@@ -462,3 +462,171 @@ pymongo.errors.ConfigurationError: The resolution lifetime expired after 30187.4
 2025-02-22 20:22:41,415 - INFO: [33mPress CTRL+C to quit[0m
 2025-02-22 20:22:47,563 - INFO: Scraper completed successfully
 2025-02-22 20:23:09,289 - INFO: 127.0.0.1 - - [22/Feb/2025 20:23:09] "[35m[1mPOST /city-movies HTTP/1.1[0m" 500 -
+2025-02-22 20:25:21,248 - INFO: Scheduler started - Running scraper every 20 seconds
+2025-02-22 20:25:21,248 - INFO: Started scheduler thread
+2025-02-22 20:25:21,248 - INFO: Starting scraper
+2025-02-22 20:25:21,248 - INFO: Starting Flask application
+2025-02-22 20:25:21,259 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8090
+ * Running on http://10.0.18.177:8090
+2025-02-22 20:25:21,259 - INFO: [33mPress CTRL+C to quit[0m
+2025-02-22 20:25:24,679 - INFO: 127.0.0.1 - - [22/Feb/2025 20:25:24] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 20:25:27,424 - INFO: Scraper completed successfully
+2025-02-22 20:25:34,701 - INFO: 127.0.0.1 - - [22/Feb/2025 20:25:34] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 20:25:39,377 - INFO: 127.0.0.1 - - [22/Feb/2025 20:25:39] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 20:26:10,457 - INFO: 10.0.18.204 - - [22/Feb/2025 20:26:10] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 20:26:29,199 - INFO: 127.0.0.1 - - [22/Feb/2025 20:26:29] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 20:27:11,081 - INFO: 127.0.0.1 - - [22/Feb/2025 20:27:11] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 20:27:24,319 - INFO: 127.0.0.1 - - [22/Feb/2025 20:27:24] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 20:27:34,476 - INFO: 127.0.0.1 - - [22/Feb/2025 20:27:34] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 20:27:44,132 - INFO: 127.0.0.1 - - [22/Feb/2025 20:27:44] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 20:29:33,047 - INFO: 10.0.18.204 - - [22/Feb/2025 20:29:33] "POST /city-movies HTTP/1.1" 200 -
+2025-02-22 20:29:34,582 - INFO: 10.0.18.204 - - [22/Feb/2025 20:29:34] "POST /city-movies HTTP/1.1" 200 -
+2025-02-23 01:41:00,719 - INFO: Starting scraper
+2025-02-24 09:57:47,445 - ERROR: Scraper failed with error: Traceback (most recent call last):
+  File "C:\Users\VenkataAnilKumarRedd\iSmokeTechLabs\chitram-news-service\main.py", line 31, in <module>
+    client = MongoClient("mongodb+srv://smoke:smoke@cluster0.tye86.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VenkataAnilKumarRedd\AppData\Local\Programs\Python\Python312\Lib\site-packages\pymongo\mongo_client.py", line 771, in __init__
+    res = uri_parser.parse_uri(
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VenkataAnilKumarRedd\AppData\Local\Programs\Python\Python312\Lib\site-packages\pymongo\uri_parser.py", line 559, in parse_uri
+    dns_options = dns_resolver.get_options()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VenkataAnilKumarRedd\AppData\Local\Programs\Python\Python312\Lib\site-packages\pymongo\srv_resolver.py", line 90, in get_options
+    raise ConfigurationError(str(exc)) from None
+pymongo.errors.ConfigurationError: The resolution lifetime expired after 116198.500 seconds: Server Do53:150.204.1.3@53 answered The DNS operation timed out.
+
+2025-02-24 17:47:42,230 - INFO: Scheduler started - Running scraper every 20 seconds
+2025-02-24 17:47:42,230 - INFO: Started scheduler thread
+2025-02-24 17:47:42,230 - INFO: Starting Flask application
+2025-02-24 17:47:42,230 - INFO: Starting scraper
+2025-02-24 17:47:42,245 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8090
+ * Running on http://10.0.18.177:8090
+2025-02-24 17:47:42,245 - INFO: [33mPress CTRL+C to quit[0m
+2025-02-24 17:47:48,152 - INFO: Scraper completed successfully
+2025-02-24 17:48:00,194 - INFO: 127.0.0.1 - - [24/Feb/2025 17:48:00] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-24 19:36:38,426 - INFO: Scheduler started - Running scraper every 20 seconds
+2025-02-24 19:36:38,426 - INFO: Starting scraper
+2025-02-24 19:36:38,426 - INFO: Started scheduler thread
+2025-02-24 19:36:38,426 - INFO: Starting Flask application
+2025-02-24 19:36:38,436 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8090
+ * Running on http://10.0.18.177:8090
+2025-02-24 19:36:38,436 - INFO: [33mPress CTRL+C to quit[0m
+2025-02-24 19:36:42,848 - INFO: 127.0.0.1 - - [24/Feb/2025 19:36:42] "[31m[1mPOST /latest-articles HTTP/1.1[0m" 405 -
+2025-02-24 19:36:49,294 - INFO: Scraper completed successfully
+2025-02-24 19:36:50,450 - INFO: 127.0.0.1 - - [24/Feb/2025 19:36:50] "[31m[1mPOST /latest-articles HTTP/1.1[0m" 405 -
+2025-02-24 19:37:46,970 - INFO: Scheduler started - Running scraper every 20 seconds
+2025-02-24 19:37:46,970 - INFO: Starting scraper
+2025-02-24 19:37:46,970 - INFO: Started scheduler thread
+2025-02-24 19:37:46,970 - INFO: Starting Flask application
+2025-02-24 19:37:46,982 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8090
+ * Running on http://10.0.18.177:8090
+2025-02-24 19:37:46,983 - INFO: [33mPress CTRL+C to quit[0m
+2025-02-24 19:37:53,847 - INFO: 127.0.0.1 - - [24/Feb/2025 19:37:53] "[31m[1mPOST /latest-articles HTTP/1.1[0m" 405 -
+2025-02-24 19:37:57,254 - INFO: Scraper completed successfully
+2025-02-24 19:38:35,388 - INFO: 127.0.0.1 - - [24/Feb/2025 19:38:35] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-24 19:39:06,184 - INFO: Scheduler started - Running scraper every 20 seconds
+2025-02-24 19:39:06,184 - INFO: Starting scraper
+2025-02-24 19:39:06,184 - INFO: Started scheduler thread
+2025-02-24 19:39:06,184 - INFO: Starting Flask application
+2025-02-24 19:39:06,194 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8090
+ * Running on http://10.0.18.177:8090
+2025-02-24 19:39:06,194 - INFO: [33mPress CTRL+C to quit[0m
+2025-02-24 19:39:12,356 - ERROR: Error in /latest-articles endpoint: name 'datetime' is not defined
+2025-02-24 19:39:12,356 - INFO: 127.0.0.1 - - [24/Feb/2025 19:39:12] "[35m[1mGET /latest-articles HTTP/1.1[0m" 500 -
+2025-02-24 19:39:16,497 - INFO: Scraper completed successfully
+2025-02-24 19:39:35,008 - INFO: Scheduler started - Running scraper every 20 seconds
+2025-02-24 19:39:35,008 - INFO: Started scheduler thread
+2025-02-24 19:39:35,008 - INFO: Starting Flask application
+2025-02-24 19:39:35,008 - INFO: Starting scraper
+2025-02-24 19:39:35,016 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8090
+ * Running on http://10.0.18.177:8090
+2025-02-24 19:39:35,016 - INFO: [33mPress CTRL+C to quit[0m
+2025-02-24 19:39:39,193 - ERROR: Error in /latest-articles endpoint: name 'datetime' is not defined
+2025-02-24 19:39:39,194 - INFO: 127.0.0.1 - - [24/Feb/2025 19:39:39] "[35m[1mGET /latest-articles HTTP/1.1[0m" 500 -
+2025-02-24 19:39:40,972 - ERROR: Error in /latest-articles endpoint: name 'datetime' is not defined
+2025-02-24 19:39:40,972 - INFO: 127.0.0.1 - - [24/Feb/2025 19:39:40] "[35m[1mGET /latest-articles HTTP/1.1[0m" 500 -
+2025-02-24 19:39:45,279 - INFO: Scraper completed successfully
+2025-02-24 19:39:52,034 - ERROR: Error in /latest-articles endpoint: name 'datetime' is not defined
+2025-02-24 19:39:52,035 - INFO: 127.0.0.1 - - [24/Feb/2025 19:39:52] "[35m[1mGET /latest-articles HTTP/1.1[0m" 500 -
+2025-02-24 19:40:18,769 - INFO: Scheduler started - Running scraper every 20 seconds
+2025-02-24 19:40:18,769 - INFO: Started scheduler thread
+2025-02-24 19:40:18,769 - INFO: Starting Flask application
+2025-02-24 19:40:18,769 - INFO: Starting scraper
+2025-02-24 19:40:18,777 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8090
+ * Running on http://10.0.18.177:8090
+2025-02-24 19:40:18,777 - INFO: [33mPress CTRL+C to quit[0m
+2025-02-24 19:40:29,025 - INFO: Scraper completed successfully
+2025-02-24 19:40:32,066 - ERROR: Error in /latest-articles endpoint: name 'datetime' is not defined
+2025-02-24 19:40:32,067 - INFO: 127.0.0.1 - - [24/Feb/2025 19:40:32] "[35m[1mGET /latest-articles HTTP/1.1[0m" 500 -
+2025-02-24 19:41:33,184 - INFO: Scheduler started - Running scraper every 20 seconds
+2025-02-24 19:41:33,185 - INFO: Started scheduler thread
+2025-02-24 19:41:33,185 - INFO: Starting scraper
+2025-02-24 19:41:33,186 - INFO: Starting Flask application
+2025-02-24 19:41:33,195 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8090
+ * Running on http://10.0.18.177:8090
+2025-02-24 19:41:33,195 - INFO: [33mPress CTRL+C to quit[0m
+2025-02-24 19:41:36,802 - INFO: 127.0.0.1 - - [24/Feb/2025 19:41:36] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-24 19:41:43,348 - INFO: Scraper completed successfully
+2025-02-24 19:42:27,656 - INFO: Scheduler started - Running scraper every 20 seconds
+2025-02-24 19:42:27,656 - INFO: Started scheduler thread
+2025-02-24 19:42:27,656 - INFO: Starting scraper
+2025-02-24 19:42:27,656 - INFO: Starting Flask application
+2025-02-24 19:42:27,665 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8090
+ * Running on http://10.0.18.177:8090
+2025-02-24 19:42:27,665 - INFO: [33mPress CTRL+C to quit[0m
+2025-02-24 19:42:27,722 - ERROR: Scraper failed with error: Traceback (most recent call last):
+  File "C:\Users\VenkataAnilKumarRedd\iSmokeTechLabs\chitram-news-service\main.py", line 1, in <module>
+    import requests
+  File "C:\Users\VenkataAnilKumarRedd\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\__init__.py", line 43, in <module>
+    import urllib3
+  File "C:\Users\VenkataAnilKumarRedd\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\__init__.py", line 14, in <module>
+    from . import exceptions
+  File "C:\Users\VenkataAnilKumarRedd\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\exceptions.py", line 7, in <module>
+    from http.client import IncompleteRead as httplib_IncompleteRead
+  File "C:\Users\VenkataAnilKumarRedd\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 71, in <module>
+    import email.parser
+  File "C:\Users\VenkataAnilKumarRedd\AppData\Local\Programs\Python\Python312\Lib\email\parser.py", line 12, in <module>
+    from email.feedparser import FeedParser, BytesFeedParser
+  File "C:\Users\VenkataAnilKumarRedd\AppData\Local\Programs\Python\Python312\Lib\email\feedparser.py", line 27, in <module>
+    from email._policybase import compat32
+  File "C:\Users\VenkataAnilKumarRedd\AppData\Local\Programs\Python\Python312\Lib\email\_policybase.py", line 9, in <module>
+    from email.utils import _has_surrogates
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1322, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1262, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1528, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1502, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1601, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 147, in _path_stat
+KeyboardInterrupt
+
+2025-02-24 19:42:35,580 - INFO: Scheduler started - Running scraper every 20 seconds
+2025-02-24 19:42:35,580 - INFO: Starting scraper
+2025-02-24 19:42:35,580 - INFO: Started scheduler thread
+2025-02-24 19:42:35,580 - INFO: Starting Flask application
+2025-02-24 19:42:35,590 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8090
+ * Running on http://10.0.18.177:8090
+2025-02-24 19:42:35,590 - INFO: [33mPress CTRL+C to quit[0m
+2025-02-24 19:42:40,795 - INFO: 127.0.0.1 - - [24/Feb/2025 19:42:40] "GET /latest-articles HTTP/1.1" 200 -
+2025-02-24 19:42:46,913 - INFO: Scraper completed successfully

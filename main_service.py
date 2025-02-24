@@ -9,6 +9,7 @@ import json
 from bson.json_util import dumps
 import os
 from paytm import scrape_nowplaying
+from datetime import datetime, timedelta, timezone
 
 # Create logs directory if it doesn't exist
 if not os.path.exists('logs'):
@@ -58,54 +59,20 @@ def run_scheduler():
         schedule.run_pending()
         time.sleep(1)
 
-# Flask Endpoints
-@app.route('/articles', methods=['GET'])
-def get_articles():
-    try:
-        # Default pagination
-        page = int(request.args.get('page', 1))
-        per_page = int(request.args.get('per_page', 10))
-        
-        # Optional filtering
-        title_filter = request.args.get('title', None)
-        
-        # Build query
-        query = {}
-        if title_filter:
-            query['title'] = {'$regex': title_filter, '$options': 'i'}
-        
-        # Calculate skip and limit for pagination
-        skip = (page - 1) * per_page
-        
-        # Fetch total count and articles
-        total_count = collection.count_documents(query)
-        articles = list(collection.find(query).skip(skip).limit(per_page))
-        
-        # Convert ObjectId to string for JSON serialization
-        articles_json = json.loads(dumps(articles))
-        
-        return jsonify({
-            'articles': articles_json,
-            'page': page,
-            'per_page': per_page,
-            'total_count': total_count
-        })
-    except Exception as e:
-        logger.error(f"Error in /articles endpoint: {str(e)}")
-        return jsonify({'error': str(e)}), 500
 
 @app.route('/latest-articles', methods=['GET'])
 def get_latest_articles():
     try:
-        # Fetch all articles sorted by _id (timestamp)
-        latest_articles = list(collection.find().sort('_id', -1))
+        # Calculate the datetime threshold (3 days ago)
+        three_days_ago = datetime.now(timezone.utc) - timedelta(days=3)
+        
+        # Fetch articles scraped in the last 3 days, sorted by _id (timestamp)
+        latest_articles = list(collection.find({"scraped_at": {"$gte": three_days_ago}}).sort('_id', -1))
         
         # Convert ObjectId to string for JSON serialization
         articles_json = json.loads(dumps(latest_articles))
         
-        return jsonify({
-            'articles': articles_json
-        })
+        return jsonify({'articles': articles_json})
     except Exception as e:
         logger.error(f"Error in /latest-articles endpoint: {str(e)}")
         return jsonify({'error': str(e)}), 500

@@ -1,1 +1,24 @@
 2025-02-22 13:26:59,931 - ERROR - MongoDB connection error: The resolution lifetime expired after 30187.465 seconds: Server Do53:150.204.1.3@53 answered The DNS operation timed out.
+2025-02-24 09:57:45,453 - ERROR - MongoDB connection error: The resolution lifetime expired after 116198.500 seconds: Server Do53:150.204.1.3@53 answered The DNS operation timed out.
+2025-02-24 18:19:00,960 - ERROR - Error processing article https://www.gulte.com/movienews/341383/divya-bharathis-red-hot-saree-avatar: name 'content' is not defined
+2025-02-24 18:19:01,522 - ERROR - Error processing article https://www.gulte.com/movienews/341377/box-office-dubbing-films-takes-front-seat: name 'content' is not defined
+2025-02-24 18:19:02,060 - ERROR - Error processing article https://www.gulte.com/movienews/341355/anasuya-drifts-into-papaya-print-saree: name 'content' is not defined
+2025-02-24 18:19:02,585 - ERROR - Error processing article https://www.gulte.com/movienews/341354/mm-keeravani-joins-the-trend: name 'content' is not defined
+2025-02-24 18:19:03,107 - ERROR - Error processing article https://www.gulte.com/photos/341340/keerthy-sureshs-wedding-album-wraps-with-a-bang: name 'content' is not defined
+2025-02-24 18:19:03,587 - ERROR - Error processing article https://www.gulte.com/photos/341323/priya-prakash-stuns-sun-kisses-sea-whispers: name 'content' is not defined
+2025-02-24 18:19:04,087 - ERROR - Error processing article https://www.gulte.com/movienews/341328/hit-3-teaser-most-violent-nani: name 'content' is not defined
+2025-02-24 18:19:04,639 - ERROR - Error processing article https://www.gulte.com/movienews/341358/chhaavas-success-fuels-demand-for-sambhajis-story-in-schools: name 'content' is not defined
+2025-02-24 18:19:05,183 - ERROR - Error processing article https://www.gulte.com/movienews/341304/this-shows-the-bonding-between-producer-hero-nani: name 'content' is not defined
+2025-02-24 18:19:05,672 - ERROR - Error processing article https://www.gulte.com/movienews/341336/mallesham-director-comes-with-another-unique-movie-23: name 'content' is not defined
+2025-02-24 18:19:06,173 - ERROR - Error processing article https://www.gulte.com/movienews/341303/here-is-the-new-pelli-kaani-prasad-in-town: name 'content' is not defined
+2025-02-24 18:21:07,659 - ERROR - Error processing article https://www.gulte.com/movienews/341383/divya-bharathis-red-hot-saree-avatar: name 'content' is not defined
+2025-02-24 18:21:08,146 - ERROR - Error processing article https://www.gulte.com/movienews/341377/box-office-dubbing-films-takes-front-seat: name 'content' is not defined
+2025-02-24 18:21:08,689 - ERROR - Error processing article https://www.gulte.com/movienews/341355/anasuya-drifts-into-papaya-print-saree: name 'content' is not defined
+2025-02-24 18:21:09,166 - ERROR - Error processing article https://www.gulte.com/movienews/341354/mm-keeravani-joins-the-trend: name 'content' is not defined
+2025-02-24 18:21:09,691 - ERROR - Error processing article https://www.gulte.com/photos/341340/keerthy-sureshs-wedding-album-wraps-with-a-bang: name 'content' is not defined
+2025-02-24 18:21:10,268 - ERROR - Error processing article https://www.gulte.com/photos/341323/priya-prakash-stuns-sun-kisses-sea-whispers: name 'content' is not defined
+2025-02-24 18:21:10,800 - ERROR - Error processing article https://www.gulte.com/movienews/341328/hit-3-teaser-most-violent-nani: name 'content' is not defined
+2025-02-24 18:21:11,319 - ERROR - Error processing article https://www.gulte.com/movienews/341358/chhaavas-success-fuels-demand-for-sambhajis-story-in-schools: name 'content' is not defined
+2025-02-24 18:21:11,867 - ERROR - Error processing article https://www.gulte.com/movienews/341304/this-shows-the-bonding-between-producer-hero-nani: name 'content' is not defined
+2025-02-24 18:21:12,332 - ERROR - Error processing article https://www.gulte.com/movienews/341336/mallesham-director-comes-with-another-unique-movie-23: name 'content' is not defined
+2025-02-24 18:21:12,879 - ERROR - Error processing article https://www.gulte.com/movienews/341303/here-is-the-new-pelli-kaani-prasad-in-town: name 'content' is not defined
