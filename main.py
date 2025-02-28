@@ -8,6 +8,7 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 from contextlib import contextmanager
 import time
+from main_service import send_push_notification
 
 # Create logs directory if it doesn't exist
 if not os.path.exists('logs'):
@@ -158,6 +159,16 @@ def scrape_articles():
             if article_docs:
                 collection.insert_many(article_docs)
                 mongo_logger.info(f"Successfully stored {len(article_docs)} articles")
+
+                # 🔥 Fetch the latest article directly from MongoDB
+                last_article = collection.find_one({}, sort=[("_id", -1)])  # Get the last inserted article
+                
+                if last_article:
+                    send_push_notification(
+                        title=last_article.get("title", "New article available!"),
+                        message="📰 Latest Chitram News", # Latest article title as body
+                        image_url=last_article.get("image_url", None)  # Latest article image as image
+                    )
                 
         return True
 

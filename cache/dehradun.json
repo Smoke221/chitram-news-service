@@ -1,10 +1,26 @@
 {
-    "timestamp": "2025-02-24T19:46:55.766973",
+    "timestamp": "2025-02-27T15:44:00.550922",
     "movies": [
         {
             "name": "Chhaava",
-            "poster": "https://assetscdn1.paytm.com/images/cinema/Chhaava-886b2360-e2dc-11ef-8f0a-13039e72f1f5.jpg",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Chhaava%20(2)-95fcaa50-e546-11ef-b243-a1b813d1dc02.jpg",
             "rating": 9.4,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Superboys Of Malegaon",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Superboy-3ee04a70-ea04-11ef-92d2-15600bedb040.jpg",
+            "rating": null,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Crazxy",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Crazxy-fd847f80-e3cb-11ef-8f0a-13039e72f1f5.jpg",
+            "rating": null,
             "languages": [
                 "Hindi"
             ]
@@ -20,10 +36,74 @@
         {
             "name": "Captain America: Brave New World",
             "poster": "https://assetscdn1.paytm.com/images/cinema/Captain-America--Brave-New-World-ae972170-e2db-11ef-ac94-fb4448095432-2f955710-e552-11ef-b81b-0b27199565f2.jpg",
-            "rating": 6.8,
+            "rating": 6.5,
             "languages": [
                 "Hindi",
                 "English"
+            ]
+        },
+        {
+            "name": "The Brutalist",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/The-Brutalist--f1d592d0-f34a-11ef-81a5-378ab06394d0.jpg",
+            "rating": null,
+            "languages": [
+                "English"
+            ]
+        },
+        {
+            "name": "Gangs of Wasseypur (2012)",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Gangs-Of-Wasseypur--608x800-31cac034-9a01-4250-b10e-dd74f7f00989.jpg",
+            "rating": null,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "A Complete Unknown",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/A%20complete%20unknown-734c6f40-f41e-11ef-b07c-116f6581bbe3.jpeg",
+            "rating": null,
+            "languages": [
+                "English"
+            ]
+        },
+        {
+            "name": "Dil To Pagal Hai (1997)",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/_-608x800%20(1)-d98eeff0-54b2-11ef-8ac1-097c7af7ce7e.jpg",
+            "rating": 8.4,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Aghathiyaa",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Aghathiyaa-2f97ef70-f295-11ef-8cb3-05c6c7d276fb.jpg",
+            "rating": null,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Mobile Suit Gundam GQuuuuuuX: Beginning",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Mobile-Suit-Gundam-GQuuuuuuX-Beginning-2a7f1d80-f441-11ef-81a5-378ab06394d0.jpg",
+            "rating": null,
+            "languages": [
+                "Japanese"
+            ]
+        },
+        {
+            "name": "Badnaam",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/WhatsApp%20Image%202025-02-27%20at%2013.48.36-c4f52b50-f4e3-11ef-8ddd-9390781bfc53.jpeg",
+            "rating": null,
+            "languages": [
+                "Punjabi"
+            ]
+        },
+        {
+            "name": "Aradhana (1969)",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/aradhana-92f7a710-f441-11ef-b07c-116f6581bbe3.jpg",
+            "rating": null,
+            "languages": [
+                "Hindi"
             ]
         },
         {
@@ -35,22 +115,6 @@
             ]
         },
         {
-            "name": "Sky Force",
-            "poster": "https://assetscdn1.paytm.com/images/cinema/WhatsApp%20Image%202025-01-20%20at%208.10.00%20PM-859d1a90-d73c-11ef-ba8a-338a2e567ebd.jpeg",
-            "rating": 9.1,
-            "languages": [
-                "Hindi"
-            ]
-        },
-        {
-            "name": "Dragon",
-            "poster": "https://assetscdn1.paytm.com/images/cinema/Dragon-86633f90-edcb-11ef-8cb3-05c6c7d276fb.jpeg",
-            "rating": 9.5,
-            "languages": [
-                "Tamil"
-            ]
-        },
-        {
             "name": "Loveyapa",
             "poster": "https://assetscdn1.paytm.com/images/cinema/loveyappa-a65cca50-e2bd-11ef-8f0a-13039e72f1f5.jpg",
             "rating": 6,
@@ -59,11 +123,11 @@
             ]
         },
         {
-            "name": "Deva",
-            "poster": "https://assetscdn1.paytm.com/images/cinema/Deva-9e0ee020-dc89-11ef-8051-f1d2444f0349-172a3830-df08-11ef-8d3b-69192b9fb9f8.jpg",
-            "rating": 7.6,
+            "name": "Dragon",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Dragon-86633f90-edcb-11ef-8cb3-05c6c7d276fb.jpeg",
+            "rating": 9.6,
             "languages": [
-                "Hindi"
+                "Tamil"
             ]
         },
         {

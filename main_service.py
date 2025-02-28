@@ -10,6 +10,7 @@ from bson.json_util import dumps
 import os
 from paytm import scrape_nowplaying
 from datetime import datetime, timedelta, timezone
+import requests
 
 # Create logs directory if it doesn't exist
 if not os.path.exists('logs'):
@@ -115,6 +116,73 @@ def get_city_movies():
             "error": f"Error fetching movies: {str(e)}",
             "city": city
         }), 500
+
+@app.route('/register-token', methods=['POST'])
+def register_token():
+    """
+    Store Expo Push Tokens in MongoDB.
+    """
+    try:
+        data = request.get_json()
+        token = data.get("token")
+
+        if not token:
+            return jsonify({"error": "No token provided"}), 400
+
+        # Ensure token is not duplicated
+        if db["tokens"].count_documents({"token": token}) == 0:
+            db["tokens"].insert_one({"token": token})
+
+        return jsonify({"message": "Token registered successfully!"}), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+EXPO_PUSH_URL = "https://exp.host/--/api/v2/push/send"
+
+def send_push_notification(title, message, image_url):
+    """
+    Fetch stored Expo push tokens from MongoDB and send notifications with optional image.
+    """
+    try:
+        tokens = db["tokens"].find({}, {"_id": 0, "token": 1})
+        tokens = [t["token"] for t in tokens]
+
+        if not tokens:
+            return {"error": "No registered push tokens"}
+
+        # Create notification payload
+        messages = []
+        for token in tokens:
+            payload = {
+                "to": token,
+                "title": title,
+                "body": message,
+                "data": {"image": image_url} if image_url else {}  # Include image if available
+            }
+            messages.append(payload)
+
+        # Send push notification
+        response = requests.post(EXPO_PUSH_URL, json=messages, headers={"Content-Type": "application/json"})
+        logger.info(f"Push notification sent with status code: {response.json()}")
+        return response.json()
+    except Exception as e:
+        return {"error": str(e)}
+
+
+@app.route('/send-notification', methods=['POST'])
+def trigger_notification():
+    """
+    API to manually trigger a push notification.
+    """
+    try:
+        data = request.get_json()
+        title = data.get("title", "New Update!")
+        message = data.get("message", "Check out the latest news!")
+
+        response = send_push_notification(title, message)
+        return jsonify(response)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 # Main Execution
 def main():
