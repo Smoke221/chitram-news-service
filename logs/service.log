@@ -630,3 +630,249 @@ KeyboardInterrupt
 2025-02-24 19:42:35,590 - INFO: [33mPress CTRL+C to quit[0m
 2025-02-24 19:42:40,795 - INFO: 127.0.0.1 - - [24/Feb/2025 19:42:40] "GET /latest-articles HTTP/1.1" 200 -
 2025-02-24 19:42:46,913 - INFO: Scraper completed successfully
+2025-03-02 10:06:52,748 - INFO: Successfully connected to MongoDB
+2025-03-02 10:06:56,370 - ERROR: Error loading summarization model: Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece installed to convert a slow tokenizer to a fast one.
+2025-03-02 10:06:56,432 - INFO: Starting scraping from https://www.gulte.com/movienews/
+2025-03-02 10:06:57,408 - INFO: Found 12 articles to process
+2025-03-02 10:08:08,647 - INFO: Successfully connected to MongoDB
+2025-03-02 10:08:09,637 - ERROR: Error loading summarization model: Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece installed to convert a slow tokenizer to a fast one.
+2025-03-02 10:08:09,637 - INFO: Starting scraping from https://www.gulte.com/movienews/
+2025-03-02 10:08:11,265 - INFO: Found 12 articles to process
+2025-03-02 10:08:17,272 - INFO: Successfully stored 1 articles
+2025-03-02 10:08:18,642 - INFO: Push notification sent with status code: {'data': [{'status': 'ok', 'id': '01955525-dbdf-7562-b112-676b45d51115'}]}
+2025-03-02 10:11:43,613 - INFO: Scheduler started - Running scraper every 20 seconds
+2025-03-02 10:11:43,613 - INFO: Starting scraper
+2025-03-02 10:11:43,613 - INFO: Started scheduler thread
+2025-03-02 10:11:43,613 - INFO: Starting Flask application
+2025-03-02 10:11:43,711 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8090
+ * Running on http://192.168.0.112:8090
+2025-03-02 10:11:43,711 - INFO: [33mPress CTRL+C to quit[0m
+2025-03-02 10:11:55,663 - INFO: Successfully connected to MongoDB
+2025-03-02 10:11:56,968 - ERROR: Error loading summarization model: Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece installed to convert a slow tokenizer to a fast one.
+2025-03-02 10:11:56,969 - INFO: Starting scraping from https://www.gulte.com/movienews/
+2025-03-02 10:11:57,533 - INFO: Found 12 articles to process
+2025-03-02 10:12:03,386 - INFO: Successfully stored 1 articles
+2025-03-02 10:12:04,331 - INFO: Push notification sent with status code: {'data': [{'status': 'ok', 'id': '01955529-4dcc-714c-a217-937781be3c24'}]}
+2025-03-02 10:12:05,459 - INFO: Scraper completed successfully
+2025-03-02 10:12:48,704 - INFO: Scheduler started - Running scraper every 20 seconds
+2025-03-02 10:12:48,704 - INFO: Starting scraper
+2025-03-02 10:12:48,704 - INFO: Started scheduler thread
+2025-03-02 10:12:48,705 - INFO: Starting Flask application
+2025-03-02 10:12:48,726 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8090
+ * Running on http://192.168.0.112:8090
+2025-03-02 10:12:48,727 - INFO: [33mPress CTRL+C to quit[0m
+2025-03-02 10:13:00,399 - INFO: Successfully connected to MongoDB
+2025-03-02 10:13:01,533 - ERROR: Error loading summarization model: Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece installed to convert a slow tokenizer to a fast one.
+2025-03-02 10:13:01,534 - INFO: Starting scraping from https://www.gulte.com/movienews/
+2025-03-02 10:13:02,229 - INFO: Found 12 articles to process
+2025-03-02 10:13:08,126 - INFO: Scraper completed successfully
+2025-03-02 10:13:09,127 - INFO: Starting scraper
+2025-03-02 10:13:20,893 - INFO: Successfully connected to MongoDB
+2025-03-02 10:13:22,052 - ERROR: Error loading summarization model: Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece installed to convert a slow tokenizer to a fast one.
+2025-03-02 10:13:22,053 - INFO: Starting scraping from https://www.gulte.com/movienews/
+2025-03-02 10:13:23,040 - INFO: Found 12 articles to process
+2025-03-02 10:13:29,097 - INFO: Scraper completed successfully
+2025-03-02 10:13:49,107 - INFO: Starting scraper
+2025-03-02 10:14:00,761 - INFO: Successfully connected to MongoDB
+2025-03-02 10:14:02,002 - ERROR: Error loading summarization model: Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece installed to convert a slow tokenizer to a fast one.
+2025-03-02 10:14:02,004 - INFO: Starting scraping from https://www.gulte.com/movienews/
+2025-03-02 10:14:02,647 - INFO: Found 12 articles to process
+2025-03-02 10:14:08,674 - INFO: Successfully stored 1 articles
+2025-03-02 10:14:09,875 - INFO: Push notification sent with status code: {'data': [{'status': 'ok', 'id': '0195552b-37dc-7f7d-b371-43f3d721a3b1'}]}
+2025-03-02 10:14:11,187 - INFO: Scraper completed successfully
+2025-03-02 10:14:31,199 - INFO: Starting scraper
+2025-03-02 10:14:44,753 - INFO: Successfully connected to MongoDB
+2025-03-02 10:14:46,046 - ERROR: Error loading summarization model: Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece installed to convert a slow tokenizer to a fast one.
+2025-03-02 10:14:46,047 - INFO: Starting scraping from https://www.gulte.com/movienews/
+2025-03-02 10:14:47,039 - INFO: Found 12 articles to process
+2025-03-02 10:14:53,209 - INFO: Scraper completed successfully
+2025-03-02 10:15:13,221 - INFO: Starting scraper
+2025-03-02 10:15:24,309 - INFO: Successfully connected to MongoDB
+2025-03-02 10:15:25,347 - ERROR: Error loading summarization model: Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece installed to convert a slow tokenizer to a fast one.
+2025-03-02 10:15:25,348 - INFO: Starting scraping from https://www.gulte.com/movienews/
+2025-03-02 10:15:25,898 - INFO: Found 12 articles to process
+2025-03-02 10:15:31,839 - INFO: Scraper completed successfully
+2025-03-02 10:15:51,849 - INFO: Starting scraper
+2025-03-02 10:16:02,983 - INFO: Successfully connected to MongoDB
+2025-03-02 10:16:03,908 - ERROR: Error loading summarization model: Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece installed to convert a slow tokenizer to a fast one.
+2025-03-02 10:16:03,909 - INFO: Starting scraping from https://www.gulte.com/movienews/
+2025-03-02 10:16:04,538 - INFO: Found 12 articles to process
+2025-03-02 10:16:10,322 - INFO: Scraper completed successfully
+2025-03-02 10:16:30,333 - INFO: Starting scraper
+2025-03-02 10:16:41,902 - INFO: Successfully connected to MongoDB
+2025-03-02 10:16:43,207 - ERROR: Error loading summarization model: Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece installed to convert a slow tokenizer to a fast one.
+2025-03-02 10:16:43,208 - INFO: Starting scraping from https://www.gulte.com/movienews/
+2025-03-02 10:16:43,950 - INFO: Found 12 articles to process
+2025-03-02 10:16:50,038 - INFO: Scraper completed successfully
+2025-03-02 10:17:10,049 - INFO: Starting scraper
+2025-03-02 10:17:24,969 - INFO: Successfully connected to MongoDB
+2025-03-02 10:17:27,116 - ERROR: Error loading summarization model: 
+T5Converter requires the protobuf library but it was not found in your environment. Checkout the instructions on the
+installation page of its repo: https://github.com/protocolbuffers/protobuf/tree/master/python#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+
+2025-03-02 10:17:27,124 - INFO: Starting scraping from https://www.gulte.com/movienews/
+2025-03-02 10:17:28,431 - INFO: Found 12 articles to process
+2025-03-02 10:17:34,241 - INFO: Successfully stored 1 articles
+2025-03-02 10:17:35,244 - INFO: Push notification sent with status code: {'data': [{'status': 'ok', 'id': '0195552e-5a7f-7e06-9743-6a21cc4d035d'}]}
+2025-03-02 10:17:36,467 - INFO: Scraper completed successfully
+2025-03-02 10:17:56,478 - INFO: Starting scraper
+2025-03-02 10:18:08,330 - INFO: Successfully connected to MongoDB
+2025-03-02 10:18:09,350 - ERROR: Error loading summarization model: 
+T5Converter requires the protobuf library but it was not found in your environment. Checkout the instructions on the
+installation page of its repo: https://github.com/protocolbuffers/protobuf/tree/master/python#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+
+2025-03-02 10:18:09,354 - INFO: Starting scraping from https://www.gulte.com/movienews/
+2025-03-02 10:18:10,125 - INFO: Found 12 articles to process
+2025-03-02 10:18:16,115 - INFO: Scraper completed successfully
+2025-03-02 10:18:36,127 - INFO: Starting scraper
+2025-03-02 10:18:47,554 - INFO: Successfully connected to MongoDB
+2025-03-02 10:19:02,767 - INFO: Successfully loaded the summarization model
+2025-03-02 10:19:02,768 - INFO: Starting scraping from https://www.gulte.com/movienews/
+2025-03-02 10:19:03,758 - INFO: Found 12 articles to process
+2025-03-02 10:19:09,645 - INFO: Scraper completed successfully
+2025-03-02 10:19:29,659 - INFO: Starting scraper
+2025-03-02 10:19:41,140 - INFO: Successfully connected to MongoDB
+2025-03-02 10:19:44,760 - INFO: Successfully loaded the summarization model
+2025-03-02 10:19:44,760 - INFO: Starting scraping from https://www.gulte.com/movienews/
+2025-03-02 10:19:45,358 - INFO: Found 12 articles to process
+2025-03-02 10:20:03,005 - INFO: Successfully stored 1 articles
+2025-03-02 10:20:04,127 - INFO: Push notification sent with status code: {'data': [{'status': 'ok', 'id': '01955530-a00f-7458-bd6c-8fb73b6e5dc4'}]}
+2025-03-02 10:20:05,173 - INFO: Scraper completed successfully
+2025-03-02 10:20:25,185 - INFO: Starting scraper
+2025-03-02 10:20:36,693 - INFO: Successfully connected to MongoDB
+2025-03-02 10:20:39,226 - INFO: Successfully loaded the summarization model
+2025-03-02 10:20:39,227 - INFO: Starting scraping from https://www.gulte.com/movienews/
+2025-03-02 10:20:39,743 - INFO: Found 12 articles to process
+2025-03-02 10:20:45,516 - INFO: Scraper completed successfully
+2025-03-02 10:21:31,824 - INFO: Scheduler started - Running scraper every 20 seconds
+2025-03-02 10:21:31,824 - INFO: Starting scraper
+2025-03-02 10:21:31,825 - INFO: Started scheduler thread
+2025-03-02 10:21:31,825 - INFO: Starting Flask application
+2025-03-02 10:21:31,868 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8090
+ * Running on http://192.168.0.112:8090
+2025-03-02 10:21:31,869 - INFO: [33mPress CTRL+C to quit[0m
+2025-03-02 10:21:43,725 - INFO: Successfully connected to MongoDB
+2025-03-02 10:21:47,640 - INFO: Successfully loaded the summarization model
+2025-03-02 10:21:47,641 - INFO: Starting scraping from https://www.gulte.com/movienews/
+2025-03-02 10:21:48,314 - INFO: Found 12 articles to process
+2025-03-02 10:22:02,021 - INFO: Successfully stored 1 articles
+2025-03-02 10:22:03,069 - INFO: Push notification sent with status code: {'data': [{'status': 'ok', 'id': '01955532-7078-7862-8ae6-8e553d96a043'}]}
+2025-03-02 10:22:04,348 - INFO: Scraper completed successfully
+2025-03-02 10:22:04,348 - INFO: Starting scraper
+2025-03-02 10:22:15,826 - INFO: Successfully connected to MongoDB
+2025-03-02 10:22:20,409 - INFO: Successfully loaded the summarization model
+2025-03-02 10:22:20,409 - INFO: Starting scraping from https://www.gulte.com/movienews/
+2025-03-02 10:22:21,211 - INFO: Found 12 articles to process
+2025-03-02 10:22:27,161 - INFO: Scraper completed successfully
+2025-03-02 10:22:47,173 - INFO: Starting scraper
+2025-03-02 10:22:59,192 - INFO: Successfully connected to MongoDB
+2025-03-02 10:23:03,449 - INFO: Successfully loaded the summarization model
+2025-03-02 10:23:03,450 - INFO: Starting scraping from https://www.gulte.com/movienews/
+2025-03-02 10:23:04,234 - INFO: Found 12 articles to process
+2025-03-02 10:23:09,857 - INFO: Scraper completed successfully
+2025-03-02 10:23:29,867 - INFO: Starting scraper
+2025-03-02 10:24:07,541 - INFO: Scheduler started - Running scraper every 20 seconds
+2025-03-02 10:24:07,541 - INFO: Starting scraper
+2025-03-02 10:24:07,541 - INFO: Started scheduler thread
+2025-03-02 10:24:07,541 - INFO: Starting Flask application
+2025-03-02 10:24:07,550 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8090
+ * Running on http://192.168.0.112:8090
+2025-03-02 10:24:07,550 - INFO: [33mPress CTRL+C to quit[0m
+2025-03-02 10:24:17,298 - INFO: Successfully connected to MongoDB
+2025-03-02 10:24:19,032 - INFO: Successfully loaded the summarization model
+2025-03-02 10:24:19,032 - INFO: Starting scraping from https://www.gulte.com/movienews/
+2025-03-02 10:24:19,407 - INFO: Found 12 articles to process
+2025-03-02 10:24:29,696 - INFO: Successfully stored 1 articles
+2025-03-02 10:24:30,589 - INFO: Push notification sent with status code: {'data': [{'status': 'ok', 'id': '01955534-b0f0-7534-a0b8-ddbc1b15ead7'}]}
+2025-03-02 10:24:31,473 - INFO: Scraper completed successfully
+2025-03-02 10:24:31,473 - INFO: Starting scraper
+2025-03-02 10:24:41,924 - INFO: Successfully connected to MongoDB
+2025-03-02 10:24:45,713 - INFO: Successfully loaded the summarization model
+2025-03-02 10:24:45,713 - INFO: Starting scraping from https://www.gulte.com/movienews/
+2025-03-02 10:24:46,411 - INFO: Found 12 articles to process
+2025-03-02 10:24:52,007 - INFO: Scraper completed successfully
+2025-03-02 10:25:12,018 - INFO: Starting scraper
+2025-03-02 10:25:21,835 - INFO: Successfully connected to MongoDB
+2025-03-02 10:25:23,631 - INFO: Successfully loaded the summarization model
+2025-03-02 10:25:23,631 - INFO: Starting scraping from https://www.gulte.com/movienews/
+2025-03-02 10:25:23,975 - INFO: Found 12 articles to process
+2025-03-02 10:25:29,335 - INFO: Scraper completed successfully
+2025-03-02 10:26:05,664 - INFO: Scheduler started - Running scraper every 20 seconds
+2025-03-02 10:26:05,664 - INFO: Starting scraper
+2025-03-02 10:26:05,664 - INFO: Started scheduler thread
+2025-03-02 10:26:05,664 - INFO: Starting Flask application
+2025-03-02 10:26:05,673 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8090
+ * Running on http://192.168.0.112:8090
+2025-03-02 10:26:05,673 - INFO: [33mPress CTRL+C to quit[0m
+2025-03-02 10:26:15,609 - INFO: Successfully connected to MongoDB
+2025-03-02 10:26:17,722 - INFO: Successfully loaded the summarization model
+2025-03-02 10:26:17,722 - INFO: Starting scraping from https://www.gulte.com/movienews/
+2025-03-02 10:26:18,068 - INFO: Found 12 articles to process
+2025-03-02 10:26:28,724 - INFO: Successfully stored 1 articles
+2025-03-02 10:26:29,515 - INFO: Push notification sent with status code: {'data': [{'status': 'ok', 'id': '01955536-817d-7e10-b93f-69b43cf7d76a'}]}
+2025-03-02 10:26:30,257 - INFO: Scraper completed successfully
+2025-03-02 10:26:30,257 - INFO: Starting scraper
+2025-03-02 10:26:41,028 - INFO: Successfully connected to MongoDB
+2025-03-02 10:26:45,240 - INFO: Successfully loaded the summarization model
+2025-03-02 10:26:45,241 - INFO: Starting scraping from https://www.gulte.com/movienews/
+2025-03-02 10:26:45,965 - INFO: Found 12 articles to process
+2025-03-02 10:26:51,689 - INFO: Scraper completed successfully
+2025-03-02 10:27:11,699 - INFO: Starting scraper
+2025-03-02 10:27:21,664 - INFO: Successfully connected to MongoDB
+2025-03-02 10:27:23,861 - INFO: Successfully loaded the summarization model
+2025-03-02 10:27:23,862 - INFO: Starting scraping from https://www.gulte.com/movienews/
+2025-03-02 10:27:24,356 - INFO: Found 12 articles to process
+2025-03-02 10:27:29,757 - INFO: Scraper completed successfully
+2025-03-02 10:27:49,766 - INFO: Starting scraper

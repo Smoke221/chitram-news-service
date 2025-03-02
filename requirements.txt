@@ -4,3 +4,8 @@ pymongo[srv]==4.6.1
 schedule==1.2.1
 flask==3.0.0
 python-dotenv==1.0.0
+numpy==1.26.4
+transformers==4.35.2
+torch==2.2.0
+sentencepiece==0.2.0
+protobuf==3.20.3

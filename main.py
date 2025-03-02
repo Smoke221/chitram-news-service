@@ -9,6 +9,9 @@ from urllib3.util.retry import Retry
 from contextlib import contextmanager
 import time
 from main_service import send_push_notification
+# Import transformers for text summarization
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+import torch
 
 # Create logs directory if it doesn't exist
 if not os.path.exists('logs'):
@@ -40,6 +43,17 @@ try:
 except Exception as e:
     error_logger.error(f"MongoDB connection error: {str(e)}")
     raise
+
+# Initialize the summarization model and tokenizer
+try:
+    summarization_tokenizer = AutoTokenizer.from_pretrained("AventIQ-AI/t5-text-summarizer")
+    summarization_model = AutoModelForSeq2SeqLM.from_pretrained("AventIQ-AI/t5-text-summarizer")
+    scraper_logger.info("Successfully loaded the summarization model")
+except Exception as e:
+    error_logger.error(f"Error loading summarization model: {str(e)}")
+    # Continue without summarization if model fails to load
+    summarization_model = None
+    summarization_tokenizer = None
 
 def create_session():
     session = requests.Session()
@@ -83,6 +97,79 @@ def extract_article_url(article):
         return a_tag['href']
     return None
 
+def generate_summary(content, min_words_per_paragraph=100):
+    """
+    Generate a two-paragraph summary of the content using the T5 summarization model.
+    Each paragraph will have at least min_words_per_paragraph words.
+    """
+    if not summarization_model or not summarization_tokenizer or not content:
+        return None
+    
+    try:
+        # Prepare the input for the model
+        input_text = "summarize: " + content
+        
+        # Tokenize and generate summary
+        inputs = summarization_tokenizer(input_text, return_tensors="pt", max_length=1024, truncation=True)
+        
+        # Generate a longer summary to ensure we have enough content for two paragraphs
+        summary_ids = summarization_model.generate(
+            inputs["input_ids"],
+            max_length=300,  # Longer output to ensure we have enough for two paragraphs
+            min_length=150,  # Minimum length to ensure substantive content
+            num_beams=4,
+            no_repeat_ngram_size=3,
+            early_stopping=True
+        )
+        
+        # Decode the summary
+        summary = summarization_tokenizer.decode(summary_ids[0], skip_special_tokens=True)
+        
+        # Split the summary into sentences
+        sentences = summary.split('. ')
+        
+        # Ensure each sentence ends with a period
+        sentences = [s + '.' if not s.endswith('.') else s for s in sentences]
+        
+        # Calculate approximate midpoint to create two paragraphs
+        total_words = len(summary.split())
+        target_words_per_paragraph = max(min_words_per_paragraph, total_words // 2)
+        
+        # Create two paragraphs
+        paragraph1 = []
+        paragraph2 = []
+        word_count = 0
+        
+        for sentence in sentences:
+            sentence_words = len(sentence.split())
+            
+            if word_count < target_words_per_paragraph:
+                paragraph1.append(sentence)
+                word_count += sentence_words
+            else:
+                paragraph2.append(sentence)
+        
+        # If paragraph2 is empty or too short, redistribute
+        if not paragraph2 or len(' '.join(paragraph2).split()) < min_words_per_paragraph:
+            # Recalculate distribution
+            midpoint = len(sentences) // 2
+            paragraph1 = sentences[:midpoint]
+            paragraph2 = sentences[midpoint:]
+        
+        # Join sentences into paragraphs
+        para1_text = ' '.join(paragraph1)
+        para2_text = ' '.join(paragraph2)
+        
+        return {
+            "paragraph1": para1_text,
+            "paragraph2": para2_text,
+            "full_summary": summary
+        }
+        
+    except Exception as e:
+        error_logger.error(f"Error generating summary: {str(e)}")
+        return None
+
 def process_article_content(session, article_url, thumbnail_image_url):
     article_response = session.get(article_url)
     article_response.raise_for_status()
@@ -106,14 +193,24 @@ def process_article_content(session, article_url, thumbnail_image_url):
     entry_div = post_inner.find('div', class_='entry')
     paragraphs = entry_div.find_all('p') if entry_div else []
     content = "\n".join(p.text.strip() for p in paragraphs)
-
-    return {
+    
+    # Generate summary if content is available
+    summary = generate_summary(content) if content else None
+    print(summary)
+    
+    article_doc = {
         "url": article_url,
         "title": title,
         "image_url": image_url,
         "content": content,
         "scraped_at": datetime.now()
     }
+    
+    # Add summary if available
+    if summary:
+        article_doc["summary"] = summary
+    
+    return article_doc
 
 def scrape_articles():
     session = create_session()
@@ -164,9 +261,14 @@ def scrape_articles():
                 last_article = collection.find_one({}, sort=[("_id", -1)])  # Get the last inserted article
                 
                 if last_article:
+                    # Use summary for notification if available
+                    message = "📰 Latest Chitram News"
+                    if last_article.get("summary") and last_article["summary"].get("paragraph1"):
+                        message = last_article["summary"]["paragraph1"][:100] + "..."
+                        
                     send_push_notification(
                         title=last_article.get("title", "New article available!"),
-                        message="📰 Latest Chitram News", # Latest article title as body
+                        message=message,
                         image_url=last_article.get("image_url", None)  # Latest article image as image
                     )
                 
