@@ -1,19 +1,12 @@
 import os
 import json
 import requests
-import random
-import time
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 
 CACHE_DIR = "cache"
 os.makedirs(CACHE_DIR, exist_ok=True)
 
-USER_AGENTS = [
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0",
-]
 
 def get_cache_filepath(city):
     return os.path.join(CACHE_DIR, f"{city.lower()}.json")
@@ -27,6 +20,7 @@ def is_cache_valid(filepath):
 def save_to_cache(city, data):
     filepath = get_cache_filepath(city)
     try:
+        print(f"Saving data to {filepath}")  # Debugging log
         with open(filepath, "w", encoding="utf-8") as file:
             json.dump({"timestamp": datetime.now().isoformat(), "movies": data}, file, indent=4)
     except Exception as e:
@@ -42,40 +36,23 @@ def load_from_cache(city):
             print(f"Error reading cache: {e}")
     return None
 
-def fetch_with_retries(url, max_retries=3):
-    for attempt in range(max_retries):
-        try:
-            headers = {
-                "User-Agent": random.choice(USER_AGENTS)
-            }
-            response = requests.get(url, headers=headers)
-            response.raise_for_status()
-            return response
-        except requests.RequestException as e:
-            print(f"Attempt {attempt + 1} failed: {e}")
-            if attempt < max_retries - 1:
-                wait_time = 2 ** attempt  # Exponential backoff
-                print(f"Waiting {wait_time} seconds before retrying...")
-                time.sleep(wait_time)
-            else:
-                raise e
-
 def scrape_nowplaying(city):
-    print(f"Checking cache for {city}")
+    print(f"Checking cache for {city}")  # Debugging log
     cached_data = load_from_cache(city)
     if cached_data:
         print(f"Serving cached data for {city}")
-        return cached_data
+        return cached_data  # Return cached data if valid
 
-    print(f"Fetching fresh data for {city}")
+    print(f"Fetching fresh data for {city}")  # Debugging log
     try:
         main_url = f"https://paytm.com/movies/{city}"
-        response = fetch_with_retries(main_url)
+        response = requests.get(main_url)
+        response.raise_for_status()
+
         soup = BeautifulSoup(response.text, "html.parser")
-
         movie_spans = soup.find_all("span", class_=lambda x: x and x.startswith("RunningMovies_moviesList"))
-        movies = []
 
+        movies = []
         for span in movie_spans:
             first_div = span.find("div")
             if not first_div:
@@ -114,4 +91,4 @@ def scrape_nowplaying(city):
 
     except requests.RequestException as e:
         print(f"Error fetching data: {e}")
-        return []
+        return []  # Return empty list to prevent recursion issues

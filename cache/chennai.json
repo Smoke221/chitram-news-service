@@ -1,0 +1,205 @@
+{
+    "timestamp": "2025-03-21T16:47:48.841695",
+    "movies": [
+        {
+            "name": "Dragon",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Dragon-86633f90-edcb-11ef-8cb3-05c6c7d276fb.jpeg",
+            "rating": 9.6,
+            "languages": [
+                "Tamil"
+            ]
+        },
+        {
+            "name": "Murmur",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Murmur-f14d2c20-f830-11ef-b63b-eb1f8a63c930.jpg",
+            "rating": 6,
+            "languages": [
+                "Tamil"
+            ]
+        },
+        {
+            "name": "Sweetheart",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Sweetheart-224db9e0-fe51-11ef-bb0c-59cbdd996a2c.jpg",
+            "rating": null,
+            "languages": [
+                "Tamil"
+            ]
+        },
+        {
+            "name": "Perusu",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Perusu--a205d190-fe6f-11ef-87c2-534491fa90be.jpg",
+            "rating": null,
+            "languages": [
+                "Tamil"
+            ]
+        },
+        {
+            "name": "Asthram - The Secret",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Asthram---The-Secret-39a4ae60-f8ce-11ef-bda1-ff9e27d58a5d.jpg",
+            "rating": null,
+            "languages": [
+                "Tamil"
+            ]
+        },
+        {
+            "name": "Court: State vs A Nobody",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/WhatsApp%20Image%202025-03-12%20at%2014.36.43-3e83d4a0-ff23-11ef-bb0c-59cbdd996a2c.jpeg",
+            "rating": 9.8,
+            "languages": [
+                "Telugu"
+            ]
+        },
+        {
+            "name": "Bagavathi (2002)",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Bagavathi%20600_800%5B1%5D-min-55c34720-05a1-11f0-941d-f3b9ed228d8c.jpg",
+            "rating": null,
+            "languages": [
+                "Tamil"
+            ]
+        },
+        {
+            "name": "Snow White",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Snow-white4-1cf829d0-032e-11f0-abed-03538c2be683.jpg",
+            "rating": null,
+            "languages": [
+                "English"
+            ]
+        },
+        {
+            "name": "L2: Empuraan",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Empuraan--6ec4a670-a01a-11ef-b248-517fddcb4be4.jpg",
+            "rating": null,
+            "languages": [
+                "Malayalam"
+            ]
+        },
+        {
+            "name": "Trauma",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Trauma-6ef230a0-03e7-11f0-abed-03538c2be683.jpg",
+            "rating": null,
+            "languages": [
+                "Tamil"
+            ]
+        },
+        {
+            "name": "Boss Engira Baskaran (2010)",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Boss-Engira-Baskaran--608x800-b46eb9d0-d541-11ee-bbe3-51d182bad483.jpg",
+            "rating": null,
+            "languages": [
+                "Tamil"
+            ]
+        },
+        {
+            "name": "Officer on Duty",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/_Officer-on-duty-0d512290-ff12-11ef-bb0c-59cbdd996a2c.jpg",
+            "rating": 9.1,
+            "languages": [
+                "Tamil"
+            ]
+        },
+        {
+            "name": "Pei Kottu",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Pei-Kottu--05662fb0-03f1-11f0-8895-8f307a77aa7b.jpg",
+            "rating": null,
+            "languages": [
+                "Tamil"
+            ]
+        },
+        {
+            "name": "Pintu Ki Pappi",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/pintu-ki-pappi--33c4ade0-d193-11ef-a52d-511c029f8231.jpg",
+            "rating": null,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Enai Sudum Pani",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Enai%20Sudum%20Pani-100c0fc0-03e7-11f0-bafe-bf14414dff37.jpg",
+            "rating": null,
+            "languages": [
+                "Tamil"
+            ]
+        },
+        {
+            "name": "96 (2018)",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/96---Tamil-app-poster-1f066930-1b6e-4fdc-a2d5-aba02dbb18cf.jpg",
+            "rating": 6,
+            "languages": [
+                "Tamil"
+            ]
+        },
+        {
+            "name": "Sabdham",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/1-sabdham-009248e0-f42c-11ef-b07c-116f6581bbe3.jpg",
+            "rating": 9.2,
+            "languages": [
+                "Tamil"
+            ]
+        },
+        {
+            "name": "Lucifer (2019)",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Lucifer%20(1)-7a4d1980-0485-11f0-9a36-f5aa0783f278.jpg",
+            "rating": 6,
+            "languages": [
+                "Malayalam"
+            ]
+        },
+        {
+            "name": "The Karate Kid (1984)",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/The-Karate-Kid-f14738f0-03c6-11f0-abed-03538c2be683.jpg",
+            "rating": null,
+            "languages": [
+                "English"
+            ]
+        },
+        {
+            "name": "Baida",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/WhatsApp%20Image%202025-03-21%20at%2016.02.57-14794c60-0641-11f0-941d-f3b9ed228d8c.jpeg",
+            "rating": null,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "Pelli Kani Prasad",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Pelli-Kani-Prasad--98b229f0-032d-11f0-b4e9-0f2eaa73988d.jpg",
+            "rating": null,
+            "languages": [
+                "Telugu"
+            ]
+        },
+        {
+            "name": "Tumko Meri Kasam",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/tumko-5-f370ec40-0301-11f0-b4e9-0f2eaa73988d.jpg",
+            "rating": null,
+            "languages": [
+                "Hindi"
+            ]
+        },
+        {
+            "name": "3 (2012)",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/3-608x800-c3c736f0-851e-11ee-931a-230dd0f33fac.jpg",
+            "rating": 9.7,
+            "languages": [
+                "Tamil"
+            ]
+        },
+        {
+            "name": "Fire",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Fire-7f5b2460-e7ae-11ef-92d2-15600bedb040.jpg",
+            "rating": null,
+            "languages": [
+                "Tamil"
+            ]
+        },
+        {
+            "name": "The Diplomat",
+            "poster": "https://assetscdn1.paytm.com/images/cinema/Diplomat-68d40010-fda5-11ef-a548-5fa23fe71357.jpg",
+            "rating": 8.5,
+            "languages": [
+                "Hindi"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+2025-03-21 16:38:04,132 - INFO: Scheduler started - Running scraper every 20 seconds
+2025-03-21 16:38:04,132 - INFO: Started scheduler thread
+2025-03-21 16:38:04,132 - INFO: Starting scraper
+2025-03-21 16:38:04,132 - INFO: Starting Flask application
+2025-03-21 16:38:04,176 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8090
+ * Running on http://10.0.18.177:8090
+2025-03-21 16:38:04,176 - INFO: [33mPress CTRL+C to quit[0m
+2025-03-21 16:38:19,705 - INFO: Successfully connected to MongoDB
+2025-03-21 16:38:25,795 - INFO: Successfully loaded the summarization model
+2025-03-21 16:38:25,795 - INFO: Starting scraping from https://www.gulte.com/movienews/
+2025-03-21 16:38:27,447 - INFO: Found 12 articles to process
+2025-03-21 16:38:33,670 - INFO: Scraper completed successfully
+2025-03-21 16:39:03,898 - INFO: 127.0.0.1 - - [21/Mar/2025 16:39:03] "[33mPOST /city-movies HTTP/1.1[0m" 404 -
+2025-03-21 16:43:14,122 - INFO: Scheduler started - Running scraper every 20 seconds
+2025-03-21 16:43:14,122 - INFO: Started scheduler thread
+2025-03-21 16:43:14,122 - INFO: Starting Flask application
+2025-03-21 16:43:14,122 - INFO: Starting scraper
+2025-03-21 16:43:14,139 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8090
+ * Running on http://10.0.18.177:8090
+2025-03-21 16:43:14,139 - INFO: [33mPress CTRL+C to quit[0m
+2025-03-21 16:43:18,188 - INFO: 127.0.0.1 - - [21/Mar/2025 16:43:18] "POST /city-movies HTTP/1.1" 200 -
+2025-03-21 16:43:25,898 - INFO: Successfully connected to MongoDB
+2025-03-21 16:43:28,697 - INFO: Successfully loaded the summarization model
+2025-03-21 16:43:28,697 - INFO: Starting scraping from https://www.gulte.com/movienews/
+2025-03-21 16:43:29,311 - INFO: Found 12 articles to process
+2025-03-21 16:43:44,822 - INFO: Successfully stored 1 articles
+2025-03-21 16:43:47,884 - INFO: Push notification sent with status code: {'data': [{'status': 'ok', 'id': '0195b868-c1c2-7e86-b54e-63b2bd581b60'}, {'status': 'ok', 'id': '0195b868-c1c2-7e86-b54e-63b368ad9434'}]}
+2025-03-21 16:43:49,024 - INFO: Scraper completed successfully
+2025-03-21 16:47:02,804 - INFO: Scheduler started - Running scraper every 20 seconds
+2025-03-21 16:47:02,804 - INFO: Started scheduler thread
+2025-03-21 16:47:02,804 - INFO: Starting scraper
+2025-03-21 16:47:02,804 - INFO: Starting Flask application
+2025-03-21 16:47:02,825 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8090
+ * Running on http://10.0.18.177:8090
+2025-03-21 16:47:02,825 - INFO: [33mPress CTRL+C to quit[0m
+2025-03-21 16:47:05,454 - INFO: 127.0.0.1 - - [21/Mar/2025 16:47:05] "POST /city-movies HTTP/1.1" 200 -
+2025-03-21 16:47:14,390 - INFO: Successfully connected to MongoDB
+2025-03-21 16:47:16,866 - INFO: Successfully loaded the summarization model
+2025-03-21 16:47:16,866 - INFO: Starting scraping from https://www.gulte.com/movienews/
+2025-03-21 16:47:24,389 - INFO: Scheduler started - Running scraper every 20 seconds
+2025-03-21 16:47:24,389 - INFO: Starting scraper
+2025-03-21 16:47:24,389 - INFO: Started scheduler thread
+2025-03-21 16:47:24,389 - INFO: Starting Flask application
+2025-03-21 16:47:24,393 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8090
+ * Running on http://10.0.18.177:8090
+2025-03-21 16:47:24,393 - INFO: [33mPress CTRL+C to quit[0m
+2025-03-21 16:47:35,336 - INFO: Successfully connected to MongoDB
+2025-03-21 16:47:39,591 - INFO: Successfully loaded the summarization model
+2025-03-21 16:47:39,592 - INFO: Starting scraping from https://www.gulte.com/movienews/
+2025-03-21 16:47:40,526 - INFO: Found 12 articles to process
+2025-03-21 16:47:46,446 - INFO: Scraper completed successfully
+2025-03-21 16:47:48,848 - INFO: 127.0.0.1 - - [21/Mar/2025 16:47:48] "POST /city-movies HTTP/1.1" 200 -
+2025-03-21 17:55:52,059 - INFO: Scheduler started - Running scraper every 20 seconds
+2025-03-21 17:55:52,059 - INFO: Started scheduler thread
+2025-03-21 17:55:52,059 - INFO: Starting scraper
+2025-03-21 17:55:52,059 - INFO: Starting Flask application
+2025-03-21 17:55:52,114 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8090
+ * Running on http://10.0.18.177:8090
+2025-03-21 17:55:52,114 - INFO: [33mPress CTRL+C to quit[0m
+2025-03-21 17:56:05,445 - INFO: 127.0.0.1 - - [21/Mar/2025 17:56:05] "POST /city-movies HTTP/1.1" 200 -
+2025-03-21 17:56:10,489 - INFO: Successfully connected to MongoDB
+2025-03-21 17:56:14,467 - INFO: Successfully loaded the summarization model
+2025-03-21 17:56:14,467 - INFO: Starting scraping from https://www.gulte.com/movienews/
+2025-03-21 17:56:15,605 - INFO: Found 12 articles to process
+2025-03-21 17:56:21,999 - INFO: Scraper completed successfully
+2025-03-21 17:56:38,872 - INFO: 127.0.0.1 - - [21/Mar/2025 17:56:38] "POST /city-movies HTTP/1.1" 200 -

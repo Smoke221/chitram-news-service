@@ -81,7 +81,7 @@ def get_latest_articles():
 @app.route('/city-movies', methods=['POST'])
 def get_city_movies():
     """
-    Dynamic endpoint to fetch movies for a given city.
+    Fetch only active movies for a given city from MongoDB.
     
     Expected JSON payload:
     {
@@ -89,32 +89,35 @@ def get_city_movies():
     }
     
     Returns:
-        JSON response with movies playing in the specified city
+        JSON response with active movies playing in the specified city
     """
     try:
         # Get city from request JSON
         data = request.get_json()
-        city = data.get('city', 'mumbai').lower()  # Default to Mumbai if no city provided
+        city = data.get('city', 'hyderabad').lower()  # Default to Hyderabad if no city provided
+
+        # Fetch data from MongoDB
+        result = db["movies"].find_one({"city": city})
         
-        # Call the scraping function
-        movies = scrape_nowplaying(city)
-        
-        if not movies:
+        if result and "movies" in result:
+            # Always filter for active movies only
+            active_movies = [movie for movie in result["movies"] if movie.get("isActive", True)]
+            
+            return jsonify({
+                "city": city,
+                "total_movies": len(active_movies),
+                "movies": active_movies
+            }), 200
+        else:
             return jsonify({
                 "message": f"No movies found for {city}",
                 "city": city
             }), 404
-        
-        return jsonify({
-            "city": city,
-            "total_movies": len(movies),
-            "movies": movies
-        }), 200
-    
+            
     except Exception as e:
         return jsonify({
             "error": f"Error fetching movies: {str(e)}",
-            "city": city
+            "city": city if 'city' in locals() else "unknown"
         }), 500
 
 @app.route('/register-token', methods=['POST'])
