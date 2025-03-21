@@ -11,7 +11,6 @@ import time
 from main_service import send_push_notification
 # Import transformers for text summarization
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
-import torch
 
 # Create logs directory if it doesn't exist
 if not os.path.exists('logs'):
